@@ -124,10 +124,13 @@ mkdir -p "$BIN_DIR"
 # Copia o driver específico e arquivos comuns
 if [ "$DRIVER" = "x11-ultra" ]; then
     echo "Copiando driver X11-Ultra..."
-    cp -r "$SCRIPT_DIR/drivers/x11-ultra"/* "$INSTALL_DIR/"
+    cp -r "$SCRIPT_DIR/drivers/x11-ultra"/* "$INSTALL_DIR/" 2>/dev/null || true
+    # Remove subdiretórios vazios do git
+    find "$INSTALL_DIR" -name ".git" -type d -exec rm -rf {} + 2>/dev/null || true
 elif [ "$DRIVER" = "linshark" ]; then
     echo "Copiando driver LinShark..."
-    cp -r "$SCRIPT_DIR/drivers/linshark"/* "$INSTALL_DIR/"
+    cp -r "$SCRIPT_DIR/drivers/linshark"/* "$INSTALL_DIR/" 2>/dev/null || true
+    find "$INSTALL_DIR" -name ".git" -type d -exec rm -rf {} + 2>/dev/null || true
 else
     echo -e "${RED}❌ Driver desconhecido: $DRIVER${NC}"
     exit 1
@@ -146,7 +149,7 @@ echo -e "${BLUE}[5/7]${NC} Instalando regras udev..."
 if [ "$DRIVER" = "x11-ultra" ]; then
     UDEV_RULE="$INSTALL_DIR/udev/70-attack-shark-x11-ultra.rules"
 elif [ "$DRIVER" = "linshark" ]; then
-    UDEV_RULE="$INSTALL_DIR/driver/models/attackshark-x8pro/udev/70-linshark-x8pro.rules"
+    UDEV_RULE="$INSTALL_DIR/models/attackshark-x8pro/udev/70-linshark-x8pro.rules"
 fi
 
 if [ -f "$UDEV_RULE" ]; then
