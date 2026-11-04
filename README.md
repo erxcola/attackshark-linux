@@ -163,6 +163,8 @@ Baseado em:
 
 Agradecimentos especiais a todos os contributors que fizeram engenharia reversa dos protocolos USB.
 
+**[Ver créditos completos →](CREDITS.md)**
+
 ---
 
 ## 💬 Suporte

@@ -163,6 +163,8 @@ Based on:
 
 Special thanks to all contributors who reverse-engineered the USB protocols.
 
+**[Full credits →](CREDITS.md)**
+
 ---
 
 ## 💬 Support
