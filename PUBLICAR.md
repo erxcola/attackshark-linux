@@ -22,7 +22,7 @@ git config user.name "Seu Nome"
 git config user.email "seu-email@exemplo.com"
 
 # Adicionar remote (SUBSTITUA pelo seu usuário)
-git remote add origin https://github.com/SEU-USUARIO/attackshark-linux.git
+git remote add origin https://github.com/erxcola/attackshark-linux.git
 
 # Push inicial
 git push -u origin main
@@ -30,10 +30,10 @@ git push -u origin main
 
 ## Passo 3: Atualizar Links no README
 
-Edite o `README.md` e substitua todos os `SEU-USUARIO` pelo seu nome de usuário do GitHub:
+Edite o `README.md` e substitua todos os `erxcola` pelo seu nome de usuário do GitHub:
 
 ```bash
-sed -i 's/SEU-USUARIO/seu-usuario-github/g' README.md CONTRIBUTING.md
+sed -i 's/erxcola/seu-usuario-github/g' README.md CONTRIBUTING.md
 git add README.md CONTRIBUTING.md
 git commit -m "docs: atualiza links do repositório"
 git push
@@ -159,7 +159,7 @@ git push
 
 - [ ] Repositório público criado
 - [ ] Push feito com sucesso
-- [ ] Links atualizados (SEU-USUARIO → seu username)
+- [ ] Links atualizados (erxcola → seu username)
 - [ ] Topics configurados
 - [ ] Release v1.0.0 criada
 - [ ] Testado em máquina limpa

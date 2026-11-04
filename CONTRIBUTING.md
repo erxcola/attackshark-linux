@@ -42,7 +42,7 @@ Contribuições de documentação são **muito** valiadas:
 #### Setup de Desenvolvimento
 
 ```bash
-git clone https://github.com/SEU-USUARIO/attackshark-linux.git
+git clone https://github.com/erxcola/attackshark-linux.git
 cd attackshark-linux
 
 # Instalar em modo dev (sem copiar para ~/.local)

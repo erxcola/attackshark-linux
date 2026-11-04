@@ -43,7 +43,7 @@ Você **não precisa saber** qual chipset seu mouse usa — o instalador detecta
 ## 🚀 Instalação Rápida
 
 ```bash
-git clone https://github.com/SEU-USUARIO/attackshark-linux.git
+git clone https://github.com/erxcola/attackshark-linux.git
 cd attackshark-linux
 ./install.sh
 ```
@@ -165,8 +165,8 @@ Agradecimentos especiais a todos os contributors que fizeram engenharia reversa 
 
 ## 💬 Suporte
 
-- 🐛 **Issues:** [GitHub Issues](https://github.com/SEU-USUARIO/attackshark-linux/issues)
-- 💬 **Discussões:** [GitHub Discussions](https://github.com/SEU-USUARIO/attackshark-linux/discussions)
+- 🐛 **Issues:** [GitHub Issues](https://github.com/erxcola/attackshark-linux/issues)
+- 💬 **Discussões:** [GitHub Discussions](https://github.com/erxcola/attackshark-linux/discussions)
 - 📧 **Email:** [Seu email]
 
 ---
