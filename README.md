@@ -5,6 +5,8 @@
 [![License: GPL-2.0+](https://img.shields.io/badge/License-GPL%202.0+-blue.svg)](LICENSE)
 [![Nobara](https://img.shields.io/badge/Testado%20em-Nobara%20Linux-blueviolet)](https://nobaraproject.org/)
 
+**Português** | **[English](README.en.md)**
+
 ---
 
 ## 🎯 O que é?
