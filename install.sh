@@ -67,7 +67,7 @@ elif [ $DETECT_EXIT -eq 2 ]; then
     fi
 fi
 
-DRIVER=$(echo "$DETECT_OUTPUT" | tail -n 1)
+DRIVER=$(echo "$DETECT_OUTPUT" | tail -n 1 | sed 's/^→ *//')  # Remove seta e espaços
 echo
 echo -e "${GREEN}Driver selecionado: ${DRIVER}${NC}"
 echo
