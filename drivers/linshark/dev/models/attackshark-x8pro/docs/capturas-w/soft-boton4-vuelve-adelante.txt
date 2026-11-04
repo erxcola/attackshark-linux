@@ -1,0 +1,7 @@
+fuente:   soft
+que:      boton4-vuelve-adelante
+valor:    nose
+firmware: nose
+fecha:    2026-09-10T17:21:43-03:00
+captura:  host Linux, usbmon usbmon1, VM de Windows con el dongle
+          pasado por USB passthrough (docs/captura-kvm.md)

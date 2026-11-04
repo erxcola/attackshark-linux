@@ -1,0 +1,48 @@
+fuente:   soft nativo (ATTACK SHARK X8 SOFT.exe, en la VM de Windows)
+          sha256 b54043ca726adf5d4aed061283472845efded61a3aef0fca8e7d983a05f3af66
+que:      tanda completa en el software de escritorio
+fecha:    2026-09-08T16:16
+captura:  host Linux, usbmon usbmon1, VM de Windows con el dongle pasado
+          por USB passthrough (docs/captura-kvm.md)
+
+46 escrituras. Las 46 dan build_write_frame(bloque) -> IDENTICO.
+
+  cmd  4 dpi          22 escrituras, 16 distintas
+  cmd  5 iluminacion   8 escrituras,  6 distintas
+  cmd  6 report rate   4 escrituras,  3 distintas
+  cmd  8 botones      10 escrituras,  9 distintas
+  cmd 12 0x0c          2 escrituras,  1 distinta
+
+## Lo que cierra: el comando 0x0c
+
+INFERIDO #5 decia: "Presente en las tablas del binario pero sin invocacion
+conocida desde la interfaz grafica". El soft SI lo invoca. Medido:
+
+    04 0f 00 0c 0a 01 fe 01 fe 00 00 00 00 02 27
+
+sizeTotalData = 0x0a, exactamente el largo que anunciaban las tablas del
+binario. El bloque es 0c 0a 01 fe 01 fe 00 00 00 00: dos pares valor+complemento
+(0x01+0xfe = 0xff), el mismo idioma que usa el byte de report rate y que usa
+cmd 7 (despertado: 07 08 01 fe 00 ff 00 00).
+
+La web NUNCA lo manda. Es parte de la banda de opciones que el soft tiene y el
+WebDriver no.
+
+## Botones: el soft mueve mucho mas que la web
+
+9 tramas distintas contra 3 de la web, y tocando mas ranuras:
+
+    ... 04 00 00 | 0d 00 00 | 05 00 00 | 06 00 00 ...
+    ... 06 00 00 | ...                                (ranura 3 cambia)
+    ... 17 00 00 | ...
+    ... 11 08 07 | ...                                (3 bytes, no 1: macro?)
+    ... 0d 00 00 | 11 0a 16 | ...
+
+Las entradas de 3 bytes que no son "XX 00 00" (11 08 07, 11 0a 16) son la pista
+mas interesante: el primer byte se repite (0x11) y los otros dos cambian, o sea
+que ahi hay un tipo + parametro, no un codigo de tecla suelto.
+
+## Lo que NO trae
+
+cmd 7 (modo de despertado). Eso solo lo mando la web. Las dos aplicaciones
+tienen superficies de comando distintas y no se solapan del todo.

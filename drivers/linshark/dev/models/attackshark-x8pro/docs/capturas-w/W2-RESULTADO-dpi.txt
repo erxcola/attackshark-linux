@@ -1,0 +1,20 @@
+﻿# W2 resultado — DPI (USBPcap)
+
+pcap: <descargas>\w2-dpi.pcap
+Dongle: 1d57:fa65 device address 2
+
+## Unica trama HID Interrupt OUT
+
+Frame 5751 @ +26.44s
+Endpoint OUT 0x03, HID Data:
+043d0004380101113f00001327355e87f30000000000000000000003ff000000ff000000ffffff0000ffffff00ffff4000ffffff020fd000000000112d000000
+
+Parse preliminar:
+  04          Report ID
+  3d 00       largo LE 0x003d (61) — mismo patron que rate (0e 00 = 14)
+  04 38       cmd/sub (coincide con W1 WS 83 08 04 38 ...)
+  resto       payload DPI/perfil + checksum al final
+
+## Contraste W1
+W1 TX ejemplos: 83080438... (varias)
+El helper baja [conn,device,cmd,sub,...] a Report ID 04 + length + cuerpo.

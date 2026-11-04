@@ -1,0 +1,35 @@
+fuente:   web (WebDriver + szslxd-tech.com, en la VM de Windows)
+que:      seleccionar el nivel 2 de DPI, en la pantalla de DPI
+fecha:    2026-09-08T15:44:42-03:00
+captura:  host Linux, usbmon usbmon1, VM de Windows con el dongle pasado
+          por USB passthrough (docs/captura-kvm.md)
+
+firmware: 08 00 83 01 01 00 (mismo mouse; se leyo de la captura
+          web-arranque-dpi-y-rate.pcap, no se anoto en la UI)
+
+Se anoto "cambie el dpi a 2000". El nivel 2 YA VALIA 2000 (0x27), asi que la
+escritura no cambio ningun byte del mouse.
+
+## Contenido
+
+Una sola escritura:
+
+  043d0004380100013f00001327355e87e70000000000000001000002ff000000ff000000
+  ffffff0000ffffff00ffff4000ffffff020fb30000000010f3
+
+  ESCRIBIR dpi, perfil 1, nivel actual 2
+  build_write_frame(bloque) -> IDENTICO
+  dpi (codificacion lineal de la web): 1000, 2000, 2700, 4750, 6800, 11600
+
+**Identica byte a byte** a una de las dos tramas de web-arranque-dpi-y-rate.pcap
+(la de nivel actual 2). No aporta informacion nueva de protocolo.
+
+Si vale por otra cosa: es una escritura del driver oficial que **no cambia
+nada**, que es exactamente la forma de la primera escritura que diseña la
+etapa 3 de docs/fase2.md. Ahora esta medida saliendo del driver oficial.
+
+## Lo que NO trae
+
+Ninguna escritura del bloque de iluminacion (cmd 5). Se toco la pantalla de
+DPI; el bloque de iluminacion lo escribe la pantalla de PARAMETROS, via
+SilentHeight (LOD) o KeyResponseTime. Sigue sin medirse.

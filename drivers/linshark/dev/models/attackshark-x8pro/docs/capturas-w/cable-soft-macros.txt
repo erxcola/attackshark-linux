@@ -1,0 +1,15 @@
+fuente:   soft nativo (ATTACK SHARK X8 SOFT.exe). El comando decia `--cable web`
+          porque asi lo armo el asistente; el usuario abrio el soft (2026-09-18)
+que:      macros
+valor:    nose
+firmware: nose
+fecha:    2026-09-17T23:42:02-03:00
+via:      cable (1d57:2126)
+captura:  host Linux, usbmon usbmon1, VM de Windows con el mouse por cable
+          pasado por USB passthrough (dev/models/attackshark-x8pro/docs/captura-kvm.md)
+analisis: (leer-captura-usb.py, no anotado en el momento)
+          ninguna lectura. Botones: el costado-adelante (slot 6) a macro 17; el
+          macro 17 escrito tres veces, en modo 0, 1 y 2, cada vez en dos
+          trozos de 64 (el bloque de 111 del dongle, partido); y el
+          costado-adelante de vuelta a 'adelante'. El macro quedo en modo 2.
+maquina:  JSJUANPCL1, VM JSJUANPC1W

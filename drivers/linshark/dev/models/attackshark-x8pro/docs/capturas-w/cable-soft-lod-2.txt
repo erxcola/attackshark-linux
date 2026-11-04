@@ -1,0 +1,13 @@
+fuente:   soft nativo (ATTACK SHARK X8 SOFT.exe). El comando decia `--cable web`
+          porque asi lo armo el asistente; el usuario abrio el soft (2026-09-18)
+que:      lod-2
+valor:    nose
+firmware: nose
+fecha:    2026-09-17T23:40:42-03:00
+via:      cable (1d57:2126)
+captura:  host Linux, usbmon usbmon1, VM de Windows con el mouse por cable
+          pasado por USB passthrough (dev/models/attackshark-x8pro/docs/captura-kvm.md)
+analisis: (leer-captura-usb.py, no anotado en el momento)
+          una escritura: dpi con SensitivityX 0x00 -> 0x10 (LOD 1 -> 2 mm) y el
+          checksum interno. Primer SET con STALL, repetido y aceptado.
+maquina:  JSJUANPCL1, VM JSJUANPC1W

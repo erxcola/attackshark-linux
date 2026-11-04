@@ -1,0 +1,49 @@
+fuente:   soft nativo (ATTACK SHARK X8 SOFT.exe, en la VM de Windows)
+que:      barrida completa de report rate, ANOTADA
+fecha:    2026-09-08T17:50
+captura:  host Linux, usbmon usbmon1, VM de Windows con el dongle pasado
+          por USB passthrough (docs/captura-kvm.md)
+
+Se pidio como "web" y se guardo como web-rates-anotados. Es del SOFT: manda el
+comando 0x0c (que la web nunca manda) y deja el nibble bajo del byte de rate
+fijo en 4, mientras que la web escribe los dos nibbles iguales. Renombrada.
+
+## La anotacion, que es lo que la hace valiosa
+
+El operador partio de 1000 Hz seleccionados y puso, en este orden:
+
+    125, 250, 500, 1000, 2000, 4000, 8000
+
+## El mapeo, siete de siete
+
+| byte | nibble alto | Hz | 125 * 2^(alto-1) |
+| ---- | ----------- | -- | ---------------- |
+| 0x14 | 1 |  125 |  125 |
+| 0x24 | 2 |  250 |  250 |
+| 0x34 | 3 |  500 |  500 |
+| 0x44 | 4 | 1000 | 1000 |
+| 0x54 | 5 | 2000 | 2000 |
+| 0x64 | 6 | 4000 | 4000 |
+| 0x74 | 7 | 8000 | 8000 |
+
+**El nibble ALTO es el indice de frecuencia.** El bajo se quedo en 4 en las
+siete escrituras.
+
+Confirmacion independiente: `web-todo.pcap` tiene su propia barrida, y la web
+escribe los dos nibbles iguales (0x11, 0x22, 0x33, 0x44, 0x55, 0x66, 0x77). Las
+dos aplicaciones coinciden en el nibble alto.
+
+Interpretacion del nibble bajo, INFERIDA: seria la tasa por cable, que el soft
+no toca (queda en 4 = 1000 Hz) y que la web pisa con el mismo valor que la
+inalambrica. No esta medido: haria falta capturar con el cable enchufado, y el
+cable habla Feature Reports.
+
+## Lo que corrigio
+
+`_adaptar_report_rate()` en `backend.py` extraia el nibble BAJO (`n & 0x0F`).
+Con el mouse en 0x44 daba bien de casualidad; para las otras seis frecuencias
+le habria dicho a la pagina 1000 Hz siempre. Y el estado de FABRICA es 0x34,
+o sea 500 Hz, que tambien salia como 1000.
+
+Ademas queda resuelto que 0x34 de fabrica = 500 Hz y que el mouse hoy esta en
+0x44 = 1000 Hz.

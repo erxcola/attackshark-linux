@@ -1,0 +1,13 @@
+[Desktop Entry]
+Type=Application
+Name=LinShark
+GenericName=Configurador del mouse
+GenericName[en]=Mouse configurator
+Comment=Configura ratones Attack Shark, MambaSnake e INX sin el cliente oficial
+Comment[en]=Configure Attack Shark, MambaSnake and INX mice without the official client
+Exec=linshark-gui
+Icon=linshark
+Terminal=false
+Categories=Settings;HardwareSettings;Utility;
+Keywords=mouse;dpi;macro;attackshark;x8pro;linshark;
+StartupNotify=true

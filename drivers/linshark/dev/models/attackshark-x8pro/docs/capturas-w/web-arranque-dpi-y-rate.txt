@@ -1,0 +1,54 @@
+fuente:   web (WebDriver + szslxd-tech.com, en la VM de Windows)
+que:      primer arranque + cambios de nivel de DPI y de report rate
+fecha:    2026-09-08T15:30:41-03:00
+captura:  host Linux, usbmon usbmon1, VM de Windows con el dongle pasado
+          por USB passthrough (docs/captura-kvm.md)
+
+OJO: se pidio como "primer-arranque" y se anoto "valor: ninguno", pero la
+captura tiene CUATRO escrituras. El operador toco controles sin esperar la
+senal. Lo que sigue esta reconstruido de la captura, no de lo que se anoto.
+
+firmware: no se anoto en la UI. Del bloque de version que respondio el mouse:
+          trama 040d000b0808008301010000b1 -> datos 08 00 83 01 01 00
+          Identico al bloque cmd 11 de respaldos/linea-base-antes-de-escribir.json,
+          o sea que es el mismo mouse del respaldo.
+          Segun protocolo.md la version es n[4]<<8|n[5] = 0x0800.
+          Difiere en UN byte del que se vio en el HAR de la Etapa W
+          (83080b0808008301050000b5): ahi ese byte es 05 y aca es 01, y el
+          checksum acompana (b5 vs b1). No sabemos que campo es. Es evidencia
+          de que la Etapa W se capturo contra OTRA unidad o firmware.
+
+## Lo que efectivamente paso, en orden
+
+Lectura inicial de la aplicacion (t+0.0 a t+0.8):
+  version, version, report rate, iluminacion, dpi   -- solo lecturas
+
+Despues, 55 segundos de nada, y cuatro escrituras:
+
+  t+56.5  dpi, nivel actual 2
+          043d0004380100013f00001327355e87e70000...0fb30000000010f3
+  t+61.7  dpi, nivel actual 1
+          043d0004380100013f00001327355e87e70000...0fb20000000010f1
+  t+65.4  report rate 11 ee
+          040e0006090111ee000000000121
+  t+68.0  report rate 44 bb
+          040e0006090144bb000000000121
+
+Los cuatro dieron build_write_frame(bloque) -> IDENTICO.
+
+## Lo que se puede leer de ahi
+
+- Las dos tramas de DPI son identicas salvo UN byte (01000002 vs 01000001):
+  el nivel de DPI activo. Aisla el campo sin ambiguedad.
+- El byte de report rate empaqueta dos nibbles: 0x11 y 0x44 (los dos nibbles
+  iguales), contra 0x34 de fabrica en el respaldo. El byte siguiente es
+  siempre el complemento a 0xff.
+- La codificacion de DPI YA ES LA LINEAL: 13 27 35 5e 87 e7. El respaldo tenia
+  la de fabrica 17 2f 3f 6f 9f 8f. La perdio en el primer guardado, como
+  estaba previsto. Nota: el ultimo nivel da e7 (11600), no el f3 (12200) que
+  se vio en la Etapa W.
+
+## Lo que NO se midio
+
+Iluminacion. La aplicacion la leyo al arrancar pero nunca la escribio. Sigue
+siendo la prioridad 1 de docs/captura-kvm.md.

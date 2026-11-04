@@ -1,0 +1,214 @@
+# attack shark x11 ultra on linux
+
+bought an x11 ultra carbon, plugged it into linux, and found out that none of the
+existing tools can talk to it. all four of the community projects out there target
+the older x11 (`1d57:fa55` / `fa60`). the ultra is different silicon running a
+completely different protocol, so it just sits there ignoring everything they send.
+
+so i pulled the vendor's web driver apart and worked out the real protocol.
+everything in [PROTOCOL.md](PROTOCOL.md) was checked against an actual mouse.
+where the minified javascript and the hardware disagreed i went with the hardware,
+and i wrote down which was which so you do not have to repeat it.
+
+## the short version
+
+the ultra does 2000, 4000 and 8000 Hz, and the old protocol cannot express any of
+them. its report rate byte is `1000/hz`, which hits 1 at 1000 Hz and has nowhere
+left to go. the ultra adds a second branch, `hz/125`, for everything above that:
+
+| Hz | byte |
+|---:|---:|
+| 125 | 0x08 |
+| 250 | 0x04 |
+| 500 | 0x02 |
+| 1000 | 0x01 |
+| 2000 | 0x10 |
+| 4000 | 0x20 |
+| 8000 | 0x40 |
+
+the bottom four are byte for byte identical to the old x11. the top three are new.
+that one extra branch is the whole reason this needed its own driver.
+
+worth knowing: the vendor's own encoder and decoder disagree here. the encoder
+would write `0x80` for 8000 Hz, the decoder reads `0x40` as 8000 Hz. i read offset
+0 off a mouse that an external tool measured at 7989 Hz and got `0x40`, so the
+decoder is the one telling the truth. reading the bundle alone points you the
+wrong way.
+
+## two usb ids, one mouse
+
+this one cost me an evening. on the dongle the mouse enumerates as `3554:f517`.
+on the cable it is `3554:f515`. same cid, same mid, same paired address, same
+protocol, same everything. if you match only `f517` then your tool works great
+right up until you plug the mouse in to charge, at which point it vanishes and
+you go looking for a bug that is not there.
+
+match both, or skip the product id entirely and match on the vendor usage page
+`0xFF02` with report id 8.
+
+## what's in here
+
+| | |
+|---|---|
+| `PROTOCOL.md` | the whole protocol writeup. start here |
+| `x11ultra.py` | python transport. handshake, flash read/write, report rate, dpi codec |
+| `probe.py` | read only. dumps what your mouse currently holds, touches nothing |
+| `udev/` | rule so you do not need root |
+| `app/` | the gui. qt6, builds standalone, no upstream code in it |
+
+run the probe first:
+
+```sh
+sudo cp udev/70-attack-shark-x11-ultra.rules /etc/udev/rules.d/
+sudo udevadm control --reload-rules && sudo udevadm trigger
+python3 probe.py
+```
+
+you should get something like:
+
+```
+handshake OK  cid=124 mid=11 type=5 (wireless 8k)
+```
+
+## what works
+
+- report rate, all seven values including 8000 Hz
+- angle snapping (the vendor calls it straight line correction), ripple
+  control, motion sync, lift off distance, debounce
+- per gear LED colours, read and write, verified against the vendor's own swatches
+- gear LED effect: off, always on, breathing, with brightness and speed. note
+  that "off" is a separate state byte rather than a mode, so switching the light
+  off keeps whichever effect you had
+- battery level and charging state
+- raw config flash read and write if you want to poke at it yourself
+- dpi, read and write, 50 up to 60000. the codec round trips all 900 valid
+  values and reproduces my mouse's six existing stage records byte for byte.
+  writes are verified on hardware too: stage 0 moved 800 to 850, landed as
+  exactly the bytes the encoder predicts, read back as 850, and writing 800
+  again restored the original record byte for byte
+
+## what doesn't
+
+- sleep time, sensor performance mode (LP / HP / Corded), long distance mode and
+  mouse angle tuning. the offsets are known and they read back fine, i just have
+  one observed value each, which pins nothing
+- macros and key remapping. the offsets are in the eeprom map, the payload format
+  is not worked out
+
+## gotchas that will waste your time
+
+**reads fail unless you retry.** the radio is busy carrying 8 kHz of motion data
+and a single read mostly gets you nothing. resend the same packet up to 5 times
+with a ~250 ms window each and only accept a reply whose first 3 bytes echo yours
+(5 bytes for flash reads). with retries every read became 100% reliable for me.
+without them most of them returned nothing at all and it looks like the device is
+unsupported when it is just busy.
+
+**DeviceOnLine lies.** command 3 reports `online=0` on a mouse that is very much
+alive and pushing 34k motion events in 20 seconds. do not gate anything on it. the
+paired address it hands back is correct, so it is probably a dongle link field
+that does not mean what the name says.
+
+**the mouse sleeps.** when it is idle the dongle keeps answering the handshake but
+flash reads time out. move the mouse and it comes back. do not treat that as
+"device not supported", just retry.
+
+**settings are stored twice.** single byte values live as `[v, 85-v]`. write both
+bytes. read them both and you get a free sanity check.
+
+## the gui
+
+needs qt6 widgets, libudev, cmake, imagemagick and a compiler. no root.
+
+```sh
+./packaging/make-icons.sh packaging/logo.png     # only if you change the logo
+cd app
+cmake -B build -DCMAKE_BUILD_TYPE=Release -DCMAKE_INSTALL_PREFIX=$HOME/.local
+cmake --build build -j$(nproc)
+cmake --install build
+```
+
+that puts the binary in `~/.local/bin`, the icon in the hicolor theme and a
+desktop entry in `~/.local/share/applications`, so it turns up in your launcher.
+the entry gets the full binary path baked into `Exec`, because `~/.local/bin` is
+not on the session PATH on most setups and a launcher entry that silently does
+nothing is miserable to debug.
+
+use `-DCMAKE_INSTALL_PREFIX=/usr/local` with sudo if you want it for every user.
+that prefix also installs the udev rule for you.
+
+to just run it without installing:
+
+```sh
+cmake -B build -DCMAKE_BUILD_TYPE=Release && cmake --build build -j$(nproc)
+./build/attackshark-ultra
+```
+
+four pages down the left: sensor, lighting, buttons, advanced.
+
+**sensor** is where you will live. the dpi gears are laid out as chips, each one
+showing its own LED colour and value, with the gear the mouse is currently using
+outlined. click a chip to edit it, click its colour swatch to change that gear's
+LED. polling rate and lift off distance are button rows. motion sync, straight
+line correction and ripple correction are toggles.
+
+**lighting** has the gear LED effect: off, always on or breathing, with the
+brightness and speed sliders greyed to match whichever one the chosen effect
+actually uses, the same way the vendor page does it.
+
+**buttons** draws the mouse with callout labels. read only for now, see below.
+
+**advanced** has the de-shake delay and the 20K FPS toggle.
+
+apply only writes what changed. gears you did not touch are not rewritten,
+fields the ui does not expose are not written at all, and everything is
+validated before the device is even opened, so a bad value cannot leave you with
+half a stage table.
+
+anything that is not decoded is greyed out with the reason written on it rather
+than left looking live. a control that silently does nothing when you press
+apply is worse than one that admits it cannot.
+
+i did start by patching
+[iago-fragnan's x11 gui](https://github.com/iago-fragnan/attack-shark-x11-linux)
+rather than writing a second one, and that worked fine. i moved off it because
+his window is a fixed 720x320 with every widget placed at absolute pixel
+coordinates, which fights you the moment you add anything, and because his repo
+has no license so i would rather not be shipping his code around. his project is
+still the one to use if you have the plain x11.
+
+i have not sent this upstream yet.
+
+## the vendor json
+
+the dpi step size is not in the javascript, it comes from two json files the web
+driver fetches at runtime:
+
+- `https://controlhub.top/AttackShark/cfg.json`
+- `https://controlhub.top/AttackShark/sensor.json`
+
+they are the vendor's files so i am not mirroring them here. the values you
+actually need are written up in PROTOCOL.md. for reference my unit is cid 124 /
+mid 11, which maps to sensor 3950 with 5 keys.
+
+## warning
+
+this writes to the config flash on your mouse. i have not bricked mine, the
+writes are single settings with a checksum and they land immediately with no
+commit step, and a full 256 byte compare before and after a write showed zero
+unintended changes. but back up first:
+
+```python
+from x11ultra import X11Ultra
+with X11Ultra() as m:
+    print(m.read_block(0, 256))
+```
+
+it is your mouse. i am not responsible for it.
+
+## not affiliated
+
+independent work, no connection to attack shark, guangzhou shijunxingcheng, or
+pixart. no vendor source code in here. the protocol was worked out from
+observable behaviour on hardware i own. trademarks belong to whoever owns them
+and are only used to say which mouse this is for.

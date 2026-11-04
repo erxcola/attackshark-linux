@@ -1,0 +1,71 @@
+fuente:   web (WebDriver + szslxd-tech.com, en la VM de Windows)
+que:      tanda completa: parametros, dpi de a 50, botones laterales,
+          modo de despertado, y reset a valores de fabrica al final
+fecha:    2026-09-08T15:57
+captura:  host Linux, usbmon usbmon1, VM de Windows con el dongle pasado
+          por USB passthrough (docs/captura-kvm.md)
+firmware: 08 00 83 01 01 00 (mismo mouse que el respaldo)
+
+43 escrituras en 139 s. Las 43 dan build_write_frame(bloque) -> IDENTICO.
+
+  cmd  4 dpi          21 escrituras, 21 tramas distintas
+  cmd  5 iluminacion  10 escrituras,  9 tramas distintas
+  cmd  6 report rate   8 escrituras,  8 tramas distintas
+  cmd  7 despertado    1 escritura
+  cmd  8 botones       3 escrituras,  3 tramas distintas
+
+## Lo que cierra
+
+**Iluminacion (cmd 5)**: primera vez que se lo ve escribir. Era la prioridad 1
+de captura-kvm.md. En el X8 Pro no hay UI de luces: el bloque se escribe desde
+la pantalla de parametros, llevando closeTime y responseTime (ver
+indexX8Pro-BTVvPdTw.js).
+
+**Modo de despertado (cmd 7)**: el sub era desconocido ("no se conoce el sub
+del comando 0x07; no se inventa"). Medido:
+
+    04 0d 00 07 08 01 fe 00 ff 00 00 02 1e
+
+o sea sizeTotalData = 0x08, bloque 07 08 01 fe 00 ff 00 00.
+
+**Botones (cmd 8)**: estructura nueva, sizeTotalData = 0x3b (59), trama de 64.
+Las tres difieren solo en dos ranuras de 3 bytes, que son los dos botones
+laterales que se remapearon:
+
+    ... 0d 00 00 | 05 00 00 | 0e 00 00 | 3c ...
+    ... 0d 00 00 | 0f 00 00 | 0e 00 00 | 3c ...
+    ... 0d 00 00 | 05 00 00 | 06 00 00 | 3c ...
+
+**La codificacion de DPI**: el operador subio niveles de a 50. Leyendo cada
+nivel como 16 bits (byte bajo en Dpi_X_setting, byte alto en el campo que
+estructuras.py llama Dpi_Y_setting) y aplicando Pu(), los valores se mueven
+exactamente de a 50:
+
+    4750 -> 4800 -> 4850 -> 4900 ;  6800 -> 6850 ;  2700 -> 2750
+    2000 -> 2050 ;  1000 -> 1050 -> 1100
+
+Eso confirma Pu() incluyendo la rama n > 255, y confirma que ese campo lleva
+los bytes altos. La tabla dispersa 3311 da otra cosa para los mismos bytes
+(850, 1700, 50, 4000, 5750, 19700), asi que los dos decodificadores NO son
+intercambiables. Cual usa la pagina para MOSTRAR sigue sin decidirse: ver
+abajo.
+
+**El reset de fabrica**: la ultima escritura de dpi es
+
+    [1200, 2400, 3200, 5600, 8000, 20000]   (bytes 17 2f 3f 6f 9f 8f + alto 01)
+
+identica byte a byte al bloque de dpi de respaldos/linea-base-antes-de-escribir.json.
+El reset del driver oficial **restaura los bytes de fabrica exactos**. La
+"perdida irreversible" de la codificacion de fabrica que se temia no era tal.
+
+## Lo que queda abierto
+
+- Que decodificador usa la pagina para MOSTRAR el dpi. El nivel 6 discrimina:
+  tabla 3311 -> 19700, Pu() -> 24400. El operador reporto "24000" de memoria.
+  Se decide mirando los seis numeros en pantalla despues del reset: si dicen
+  1200/2400/3200/5600/8000/20000 lee con Pu(); si dicen
+  1000/2000/2700/4750/6800/12200 lee con la tabla.
+- La ruedita: el reset del WebDriver **invierte** el sentido de scroll; el del
+  soft nativo lo deja bien (observado por el operador). Las dos aplicaciones
+  escriben distinto en algun campo. Con el reset del soft capturado, un diff
+  contra este da el campo exacto.

@@ -1,0 +1,18 @@
+fuente:   soft
+que:      rate-8000-a-1000
+valor:    8000 -> 1000 Hz
+          La nota se tomo como "nose" en el momento; el valor sale de los
+          propios datos y quedo confirmado por dos caminos:
+            - la trama de report rate de la captura es
+              04 0e 00 06 09 01 44 bb 00 00 00 00 01 21, y 0x44 es el nibble
+              alto 4 = 125 * 2^3 = 1000 Hz (ver protocol.py, RATE_HZ)
+            - despues de la captura, medir-polling.py midio 1001 Hz
+firmware: sin anotar. El respaldo tomado minutos despues en Linux tiene la
+          respuesta de version de firmware entera:
+          respaldos/20260908-190926.json, comando 11
+fecha:    2026-09-08T19:08:21-03:00
+captura:  host Linux, usbmon usbmon1, VM de Windows con el dongle
+          pasado por USB passthrough (docs/captura-kvm.md)
+contenido: cinco Interrupt OUT al tocar UN solo control, a ~1 s de intervalo:
+          0x0c, dpi, iluminacion, report rate, botones. Las cinco reproducidas
+          identicas por build_write_frame(). El soft reescribe el perfil entero.

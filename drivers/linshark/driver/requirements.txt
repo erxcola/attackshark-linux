@@ -1,0 +1,13 @@
+# Dependencias del puente y de los scripts de medicion.
+#
+#   websockets  el servidor que se hace pasar por el helper nativo (src/linshark)
+#   evdev       scripts/medir-enlace.py y scripts/medir-polling.py, que leen el
+#               nodo de eventos del propio mouse para correlacionar movimiento
+#               con perdidas y para cronometrar los SYN_REPORT
+#   PySide6     la aplicacion (./linshark-gui) y tests/interfaz.py
+#
+# Las tres son independientes: el puente solo necesita websockets, la ventana
+# solo PySide6, y las mediciones solo evdev.
+websockets>=13.0
+evdev>=1.7.0
+PySide6>=6.6

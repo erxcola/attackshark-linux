@@ -1,0 +1,29 @@
+﻿# W2 resultado — report rate (USBPcap)
+
+pcap: <descargas>\w2-rate.pcap (1632877) bytes)
+Interface: \\.\USBPcap1
+Dongle: VID_1D57&PID_FA65 (device address 2 en la captura)
+
+## Unica trama HID Interrupt OUT (host -> device)
+
+Frame 10253 @ +17.638s
+Endpoint OUT 0x03, 64 bytes
+HID Data:
+040e0006090144bb0000000001210000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+
+Parse preliminar (Report ID = 04):
+  04          Report ID
+  0e 00       ??? (no es el 0c a0 de las lecturas)
+  06          cmd = report rate (igual que WS)
+  09          sub = 0x09 (igual que WS escritura)
+  01 44 bb    payload+checksum aparente (valores distintos a W1 01 33 cc — otro rate)
+
+## Contraste W1 (WebSocket de la pagina al helper)
+W1 TX escritura: 83 08 06 09 01 33 cc ...
+= [conn=83, device=08, cmd=06, sub=09, datos...]
+
+El helper tradujo eso a HID Report ID 4 en endpoint OUT 3.
+ formal MEDIDO del camino dongle para escritura de report rate.
+
+## Nota
+En todo el pcap solo hubo 1 interrupt OUT con datos. Ideal para Fase 2.

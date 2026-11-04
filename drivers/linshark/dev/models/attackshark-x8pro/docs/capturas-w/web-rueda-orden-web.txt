@@ -1,0 +1,7 @@
+fuente:   web
+que:      rueda-orden-web
+valor:    nose
+firmware: nose
+fecha:    2026-09-10T18:18:08-03:00
+captura:  host Linux, usbmon usbmon1, VM de Windows con el dongle
+          pasado por USB passthrough (docs/captura-kvm.md)

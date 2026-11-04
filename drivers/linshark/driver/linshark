@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+# Lanzador: python -m linshark sin tener que tocar PYTHONPATH.
+cd "$(dirname "$(readlink -f "$0")")/src" || exit 1
+exec python3 -m linshark "$@"

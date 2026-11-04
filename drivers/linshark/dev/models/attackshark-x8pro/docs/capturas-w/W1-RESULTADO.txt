@@ -1,0 +1,33 @@
+﻿# W1 resultado (HAR oficial WebDriver)
+
+Archivo: <descargas>\w1.har
+Extraido: w1-from-har.jsonl (85 frames, TX=15 RX=70)
+
+## Cierres de evidencia
+
+### connectionMethod = 0x83 (antes INFERIDO #1)
+Presencia del helper oficial (RX, muchas veces):
+  83010308400164
+= [0x83, 0x01, 0x03, 0x08, 0x40, 0x01, 0x64]
+El helper real declara 0x83. Ya no es circular con nuestro puente Linux.
+
+### Prefijo respuestas dongle (antes INFERIDO #3)
+Lecturas de la pagina (TX):
+  f083080b00  f083080600  f083080500  f083080400
+= [0xF0, conn, deviceId=08, cmd, sub]
+
+Respuestas helper (RX), ej version:
+  83080b0808008301050000b5...
+= [0x83, 0x08, cmd=0x0b, sub=0x08, ...payload]
+La pagina ve [conn, deviceId, cmd, sub, ...datos]. Confirmado en camino dongle.
+
+### Escritura report rate (oro para Fase 2)
+TX (no es F0, es escritura):
+  830806090133cc00000000000000000000
+= [0x83, 0x08, cmd=0x06, sub=0x09, 0x01, 0x33, 0xcc, padding...]
+
+Tambien hubo escrituras largas cmd=0x04 (DPI/perfil?), tres variantes 83080438...
+
+## Siguiente
+W2 USBPcap sobre el dongle al repetir UN solo cambio de report rate,
+para ver la trama hidraw 04 0c ... real del helper.

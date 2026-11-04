@@ -1,0 +1,1048 @@
+{"t": 20.8274, "dir": "tx", "hex": "0305", "len": 2, "note": "version del helper 3.5"}
+{"t": 20.8277, "dir": "tx", "hex": "83010008400264", "len": 7, "note": "presencia: X8Pro via 8 kHz (0x83), bateria 100%"}
+{"t": 21.9719, "dir": "rx", "hex": "f083080b00", "len": 5, "note": "LEER  version de firmware (sub=0) | X8Pro via 8 kHz (0x83)"}
+{"t": 21.9794, "dir": "tx", "hex": "83080b08080083010500", "len": 10, "note": "?"}
+{"t": 21.9926, "dir": "rx", "hex": "f083080b00", "len": 5, "note": "LEER  version de firmware (sub=0) | X8Pro via 8 kHz (0x83)"}
+{"t": 22.8302, "dir": "tx", "hex": "83010008400164", "len": 7, "note": "presencia: X8Pro via 8 kHz (0x83), bateria 100%"}
+{"t": 24.8312, "dir": "tx", "hex": "83010008400164", "len": 7, "note": "presencia: X8Pro via 8 kHz (0x83), bateria 100%"}
+{"t": 25.8806, "dir": "tx", "hex": "83080b08080083010500", "len": 10, "note": "?"}
+{"t": 25.8808, "dir": "rx", "hex": "f083080600", "len": 5, "note": "LEER  report rate (sub=0) | X8Pro via 8 kHz (0x83)"}
+{"t": 26.6017, "dir": "tx", "hex": "830806090144bb00000000", "len": 11, "note": "?"}
+{"t": 26.6018, "dir": "rx", "hex": "f083080500", "len": 5, "note": "LEER  iluminacion (sub=0) | X8Pro via 8 kHz (0x83)"}
+{"t": 26.8326, "dir": "tx", "hex": "83010008400164", "len": 7, "note": "presencia: X8Pro via 8 kHz (0x83), bateria 100%"}
+{"t": 27.321, "dir": "tx", "hex": "8308050f010003a800ff00010401af0000", "len": 17, "note": "?"}
+{"t": 27.3211, "dir": "rx", "hex": "f083080400", "len": 5, "note": "LEER  dpi (sub=0) | X8Pro via 8 kHz (0x83)"}
+{"t": 27.3455, "dir": "tx", "hex": "830804380101013f2000172f3f6f9f8f0000000000000001000001ff000000ff000000ffffff0000ffffff00ffff4000ffffff020fba00000000", "len": 58, "note": "?"}
+{"t": 28.8342, "dir": "tx", "hex": "83010008400164", "len": 7, "note": "presencia: X8Pro via 8 kHz (0x83), bateria 100%"}
+{"t": 30.835, "dir": "tx", "hex": "83010008400164", "len": 7, "note": "presencia: X8Pro via 8 kHz (0x83), bateria 100%"}
+{"t": 32.8359, "dir": "tx", "hex": "83010008400164", "len": 7, "note": "presencia: X8Pro via 8 kHz (0x83), bateria 100%"}
+{"t": 34.8373, "dir": "tx", "hex": "83010008400164", "len": 7, "note": "presencia: X8Pro via 8 kHz (0x83), bateria 100%"}
+{"t": 36.8381, "dir": "tx", "hex": "83010008400164", "len": 7, "note": "presencia: X8Pro via 8 kHz (0x83), bateria 100%"}
+{"t": 38.8391, "dir": "tx", "hex": "83010008400164", "len": 7, "note": "presencia: X8Pro via 8 kHz (0x83), bateria 100%"}
+{"t": 40.84, "dir": "tx", "hex": "83010008400164", "len": 7, "note": "presencia: X8Pro via 8 kHz (0x83), bateria 100%"}
+{"t": 42.8411, "dir": "tx", "hex": "83010008400164", "len": 7, "note": "presencia: X8Pro via 8 kHz (0x83), bateria 100%"}
+{"t": 44.864, "dir": "tx", "hex": "83010008400164", "len": 7, "note": "presencia: X8Pro via 8 kHz (0x83), bateria 100%"}
+{"t": 46.8679, "dir": "tx", "hex": "83010008400164", "len": 7, "note": "presencia: X8Pro via 8 kHz (0x83), bateria 100%"}
+{"t": 48.8699, "dir": "tx", "hex": "83010008400164", "len": 7, "note": "presencia: X8Pro via 8 kHz (0x83), bateria 100%"}
+{"t": 50.8723, "dir": "tx", "hex": "83010008400164", "len": 7, "note": "presencia: X8Pro via 8 kHz (0x83), bateria 100%"}
+{"t": 52.873, "dir": "tx", "hex": "83010008400164", "len": 7, "note": "presencia: X8Pro via 8 kHz (0x83), bateria 100%"}
+{"t": 53.9932, "dir": "rx", "hex": "830804380100013f00001327355e87e70000000000000001000001ff000000ff000000ffffff0000ffffff00ffff4000ffffff020fb20000000000000000", "len": 62, "note": "ESCRIBIR cmd 56 (sub=1) | X8Pro via 8 kHz (0x83) payload=60B"}
+{"t": 53.9961, "dir": "tx", "hex": "8308500100", "len": 5, "note": "ack error (la pagina reintenta)"}
+{"t": 54.8738, "dir": "tx", "hex": "83010008400164", "len": 7, "note": "presencia: X8Pro via 8 kHz (0x83), bateria 100%"}
+{"t": 56.133, "dir": "rx", "hex": "830804380100013f00001327355e87e70000000000000001000001ff000000ff000000ffffff0000ffffff00ffff4000ffffff020fb20000000000000000", "len": 62, "note": "ESCRIBIR cmd 56 (sub=1) | X8Pro via 8 kHz (0x83) payload=60B"}
+{"t": 56.1338, "dir": "tx", "hex": "8308500100", "len": 5, "note": "ack error (la pagina reintenta)"}
+{"t": 56.8749, "dir": "tx", "hex": "83010008400164", "len": 7, "note": "presencia: X8Pro via 8 kHz (0x83), bateria 100%"}
+{"t": 57.9173, "dir": "rx", "hex": "830804380100013f00001327355e87e70000000000000001000001ff000000ff000000ffffff0000ffffff00ffff4000ffffff020fb20000000000000000", "len": 62, "note": "ESCRIBIR cmd 56 (sub=1) | X8Pro via 8 kHz (0x83) payload=60B"}
+{"t": 57.9176, "dir": "tx", "hex": "8308500100", "len": 5, "note": "ack error (la pagina reintenta)"}
+{"t": 58.878, "dir": "tx", "hex": "83010008400164", "len": 7, "note": "presencia: X8Pro via 8 kHz (0x83), bateria 100%"}
+{"t": 60.5966, "dir": "rx", "hex": "830804380100013f00001327355e87e70000000000000001000001ff000000ff000000ffffff0000ffffff00ffff4000ffffff020fb20000000000000000", "len": 62, "note": "ESCRIBIR cmd 56 (sub=1) | X8Pro via 8 kHz (0x83) payload=60B"}
+{"t": 60.5978, "dir": "tx", "hex": "8308500100", "len": 5, "note": "ack error (la pagina reintenta)"}
+{"t": 60.8808, "dir": "tx", "hex": "83010008400164", "len": 7, "note": "presencia: X8Pro via 8 kHz (0x83), bateria 100%"}
+{"t": 62.8822, "dir": "tx", "hex": "83010008400164", "len": 7, "note": "presencia: X8Pro via 8 kHz (0x83), bateria 100%"}
+{"t": 64.8839, "dir": "tx", "hex": "83010008400164", "len": 7, "note": "presencia: X8Pro via 8 kHz (0x83), bateria 100%"}
+{"t": 66.8879, "dir": "tx", "hex": "83010008400164", "len": 7, "note": "presencia: X8Pro via 8 kHz (0x83), bateria 100%"}
+{"t": 68.8927, "dir": "tx", "hex": "83010008400164", "len": 7, "note": "presencia: X8Pro via 8 kHz (0x83), bateria 100%"}
+{"t": 70.8936, "dir": "tx", "hex": "83010008400164", "len": 7, "note": "presencia: X8Pro via 8 kHz (0x83), bateria 100%"}
+{"t": 72.895, "dir": "tx", "hex": "83010008400164", "len": 7, "note": "presencia: X8Pro via 8 kHz (0x83), bateria 100%"}
+{"t": 74.8969, "dir": "tx", "hex": "83010008400164", "len": 7, "note": "presencia: X8Pro via 8 kHz (0x83), bateria 100%"}
+{"t": 76.8983, "dir": "tx", "hex": "83010008400164", "len": 7, "note": "presencia: X8Pro via 8 kHz (0x83), bateria 100%"}
+{"t": 78.8995, "dir": "tx", "hex": "83010008400164", "len": 7, "note": "presencia: X8Pro via 8 kHz (0x83), bateria 100%"}
+{"t": 80.9019, "dir": "tx", "hex": "83010008400164", "len": 7, "note": "presencia: X8Pro via 8 kHz (0x83), bateria 100%"}
+{"t": 82.9035, "dir": "tx", "hex": "83010008400164", "len": 7, "note": "presencia: X8Pro via 8 kHz (0x83), bateria 100%"}
+{"t": 84.9045, "dir": "tx", "hex": "83010008400164", "len": 7, "note": "presencia: X8Pro via 8 kHz (0x83), bateria 100%"}
+{"t": 86.9068, "dir": "tx", "hex": "83010008400164", "len": 7, "note": "presencia: X8Pro via 8 kHz (0x83), bateria 100%"}
+{"t": 88.9078, "dir": "tx", "hex": "83010008400164", "len": 7, "note": "presencia: X8Pro via 8 kHz (0x83), bateria 100%"}
+{"t": 90.9084, "dir": "tx", "hex": "83010008400164", "len": 7, "note": "presencia: X8Pro via 8 kHz (0x83), bateria 100%"}
+{"t": 92.9094, "dir": "tx", "hex": "83010008400164", "len": 7, "note": "presencia: X8Pro via 8 kHz (0x83), bateria 100%"}
+{"t": 94.91, "dir": "tx", "hex": "83010008400164", "len": 7, "note": "presencia: X8Pro via 8 kHz (0x83), bateria 100%"}
+{"t": 96.911, "dir": "tx", "hex": "83010008400164", "len": 7, "note": "presencia: X8Pro via 8 kHz (0x83), bateria 100%"}
+{"t": 98.9118, "dir": "tx", "hex": "83010008400164", "len": 7, "note": "presencia: X8Pro via 8 kHz (0x83), bateria 100%"}
+{"t": 100.9131, "dir": "tx", "hex": "83010008400200", "len": 7, "note": "presencia: X8Pro via 8 kHz (0x83), bateria 0%"}
+{"t": 102.9151, "dir": "tx", "hex": "83010008400164", "len": 7, "note": "presencia: X8Pro via 8 kHz (0x83), bateria 100%"}
+{"t": 104.9159, "dir": "tx", "hex": "83010008400164", "len": 7, "note": "presencia: X8Pro via 8 kHz (0x83), bateria 100%"}
+{"t": 106.917, "dir": "tx", "hex": "83010008400300", "len": 7, "note": "presencia: X8Pro via 8 kHz (0x83), bateria 0%"}
+{"t": 108.9192, "dir": "tx", "hex": "83010008400164", "len": 7, "note": "presencia: X8Pro via 8 kHz (0x83), bateria 100%"}
+{"t": 110.9214, "dir": "tx", "hex": "83010008400164", "len": 7, "note": "presencia: X8Pro via 8 kHz (0x83), bateria 100%"}
+{"t": 112.9247, "dir": "tx", "hex": "83010008400164", "len": 7, "note": "presencia: X8Pro via 8 kHz (0x83), bateria 100%"}
+{"t": 114.9256, "dir": "tx", "hex": "83010008400400", "len": 7, "note": "presencia: X8Pro via 8 kHz (0x83), bateria 0%"}
+{"t": 116.9264, "dir": "tx", "hex": "83010008400600", "len": 7, "note": "presencia: X8Pro via 8 kHz (0x83), bateria 0%"}
+{"t": 118.9278, "dir": "tx", "hex": "83010008400164", "len": 7, "note": "presencia: X8Pro via 8 kHz (0x83), bateria 100%"}
+{"t": 120.9285, "dir": "tx", "hex": "83010008400164", "len": 7, "note": "presencia: X8Pro via 8 kHz (0x83), bateria 100%"}
+{"t": 122.9308, "dir": "tx", "hex": "83010008400164", "len": 7, "note": "presencia: X8Pro via 8 kHz (0x83), bateria 100%"}
+{"t": 124.9313, "dir": "tx", "hex": "83010008400100", "len": 7, "note": "presencia: X8Pro via 8 kHz (0x83), bateria 0%"}
+{"t": 126.134, "dir": "rx", "hex": "830804380100013f00001327355e87e70000000000000001000002ff000000ff000000ffffff0000ffffff00ffff4000ffffff020fb30000000000000000", "len": 62, "note": "ESCRIBIR cmd 56 (sub=1) | X8Pro via 8 kHz (0x83) payload=60B"}
+{"t": 126.1367, "dir": "tx", "hex": "8308500100", "len": 5, "note": "ack error (la pagina reintenta)"}
+{"t": 126.9336, "dir": "tx", "hex": "83010008400164", "len": 7, "note": "presencia: X8Pro via 8 kHz (0x83), bateria 100%"}
+{"t": 128.2684, "dir": "rx", "hex": "830804380100013f00001427355e87e70000000000000001000001ff000000ff000000ffffff0000ffffff00ffff4000ffffff020fb30000000000000000", "len": 62, "note": "ESCRIBIR cmd 56 (sub=1) | X8Pro via 8 kHz (0x83) payload=60B"}
+{"t": 128.2687, "dir": "tx", "hex": "8308500100", "len": 5, "note": "ack error (la pagina reintenta)"}
+{"t": 128.9353, "dir": "tx", "hex": "83010008400164", "len": 7, "note": "presencia: X8Pro via 8 kHz (0x83), bateria 100%"}
+{"t": 129.5708, "dir": "rx", "hex": "830804380100013f00001327355e87e70000000000000001000001ff000000ff000000ffffff0000ffffff00ffff4000ffffff020fb20000000000000000", "len": 62, "note": "ESCRIBIR cmd 56 (sub=1) | X8Pro via 8 kHz (0x83) payload=60B"}
+{"t": 129.5711, "dir": "tx", "hex": "8308500100", "len": 5, "note": "ack error (la pagina reintenta)"}
+{"t": 130.9372, "dir": "tx", "hex": "83010008400164", "len": 7, "note": "presencia: X8Pro via 8 kHz (0x83), bateria 100%"}
+{"t": 132.2647, "dir": "rx", "hex": "830804380100013f01001327355e87e70000000000000001000006ff000000ff000000ffffff0000ffffff00ffff4000ffffff020fb80000000000000000", "len": 62, "note": "ESCRIBIR cmd 56 (sub=1) | X8Pro via 8 kHz (0x83) payload=60B"}
+{"t": 132.2651, "dir": "tx", "hex": "8308500100", "len": 5, "note": "ack error (la pagina reintenta)"}
+{"t": 132.9387, "dir": "tx", "hex": "83010008400164", "len": 7, "note": "presencia: X8Pro via 8 kHz (0x83), bateria 100%"}
+{"t": 134.7258, "dir": "rx", "hex": "830804380100013f00001327355e87e70000000000000001000001ff000000ff000000ffffff0000ffffff00ffff4000ffffff020fb20000000000000000", "len": 62, "note": "ESCRIBIR cmd 56 (sub=1) | X8Pro via 8 kHz (0x83) payload=60B"}
+{"t": 134.7261, "dir": "tx", "hex": "8308500100", "len": 5, "note": "ack error (la pagina reintenta)"}
+{"t": 134.9418, "dir": "tx", "hex": "83010008400164", "len": 7, "note": "presencia: X8Pro via 8 kHz (0x83), bateria 100%"}
+{"t": 136.9432, "dir": "tx", "hex": "83010008400164", "len": 7, "note": "presencia: X8Pro via 8 kHz (0x83), bateria 100%"}
+{"t": 138.9448, "dir": "tx", "hex": "83010008400164", "len": 7, "note": "presencia: X8Pro via 8 kHz (0x83), bateria 100%"}
+{"t": 140.9467, "dir": "tx", "hex": "83010008400164", "len": 7, "note": "presencia: X8Pro via 8 kHz (0x83), bateria 100%"}
+{"t": 142.9477, "dir": "tx", "hex": "83010008400164", "len": 7, "note": "presencia: X8Pro via 8 kHz (0x83), bateria 100%"}
+{"t": 144.9484, "dir": "tx", "hex": "83010008400164", "len": 7, "note": "presencia: X8Pro via 8 kHz (0x83), bateria 100%"}
+{"t": 146.9489, "dir": "tx", "hex": "83010008400164", "len": 7, "note": "presencia: X8Pro via 8 kHz (0x83), bateria 100%"}
+{"t": 148.9495, "dir": "tx", "hex": "83010008400164", "len": 7, "note": "presencia: X8Pro via 8 kHz (0x83), bateria 100%"}
+{"t": 150.9509, "dir": "tx", "hex": "83010008400164", "len": 7, "note": "presencia: X8Pro via 8 kHz (0x83), bateria 100%"}
+{"t": 152.9518, "dir": "tx", "hex": "83010008400164", "len": 7, "note": "presencia: X8Pro via 8 kHz (0x83), bateria 100%"}
+{"t": 154.9529, "dir": "tx", "hex": "83010008400164", "len": 7, "note": "presencia: X8Pro via 8 kHz (0x83), bateria 100%"}
+{"t": 156.9544, "dir": "tx", "hex": "83010008400164", "len": 7, "note": "presencia: X8Pro via 8 kHz (0x83), bateria 100%"}
+{"t": 158.956, "dir": "tx", "hex": "83010008400164", "len": 7, "note": "presencia: X8Pro via 8 kHz (0x83), bateria 100%"}
+{"t": 160.9575, "dir": "tx", "hex": "83010008400164", "len": 7, "note": "presencia: X8Pro via 8 kHz (0x83), bateria 100%"}
+{"t": 162.9587, "dir": "tx", "hex": "83010008400164", "len": 7, "note": "presencia: X8Pro via 8 kHz (0x83), bateria 100%"}
+{"t": 164.9598, "dir": "tx", "hex": "83010008400164", "len": 7, "note": "presencia: X8Pro via 8 kHz (0x83), bateria 100%"}
+{"t": 166.9609, "dir": "tx", "hex": "83010008400164", "len": 7, "note": "presencia: X8Pro via 8 kHz (0x83), bateria 100%"}
+{"t": 168.963, "dir": "tx", "hex": "83010008400164", "len": 7, "note": "presencia: X8Pro via 8 kHz (0x83), bateria 100%"}
+{"t": 170.9655, "dir": "tx", "hex": "83010008400164", "len": 7, "note": "presencia: X8Pro via 8 kHz (0x83), bateria 100%"}
+{"t": 172.9676, "dir": "tx", "hex": "83010008400164", "len": 7, "note": "presencia: X8Pro via 8 kHz (0x83), bateria 100%"}
+{"t": 174.9696, "dir": "tx", "hex": "83010008400164", "len": 7, "note": "presencia: X8Pro via 8 kHz (0x83), bateria 100%"}
+{"t": 176.9721, "dir": "tx", "hex": "83010008400164", "len": 7, "note": "presencia: X8Pro via 8 kHz (0x83), bateria 100%"}
+{"t": 178.9738, "dir": "tx", "hex": "83010008400164", "len": 7, "note": "presencia: X8Pro via 8 kHz (0x83), bateria 100%"}
+{"t": 180.975, "dir": "tx", "hex": "83010008400164", "len": 7, "note": "presencia: X8Pro via 8 kHz (0x83), bateria 100%"}
+{"t": 182.9754, "dir": "tx", "hex": "83010008400164", "len": 7, "note": "presencia: X8Pro via 8 kHz (0x83), bateria 100%"}
+{"t": 184.9758, "dir": "tx", "hex": "83010008400164", "len": 7, "note": "presencia: X8Pro via 8 kHz (0x83), bateria 100%"}
+{"t": 186.9769, "dir": "tx", "hex": "83010008400164", "len": 7, "note": "presencia: X8Pro via 8 kHz (0x83), bateria 100%"}
+{"t": 188.9777, "dir": "tx", "hex": "83010008400164", "len": 7, "note": "presencia: X8Pro via 8 kHz (0x83), bateria 100%"}
+{"t": 190.9783, "dir": "tx", "hex": "83010008400164", "len": 7, "note": "presencia: X8Pro via 8 kHz (0x83), bateria 100%"}
+{"t": 192.98, "dir": "tx", "hex": "83010008400164", "len": 7, "note": "presencia: X8Pro via 8 kHz (0x83), bateria 100%"}
+{"t": 194.9823, "dir": "tx", "hex": "83010008400164", "len": 7, "note": "presencia: X8Pro via 8 kHz (0x83), bateria 100%"}
+{"t": 196.9839, "dir": "tx", "hex": "83010008400164", "len": 7, "note": "presencia: X8Pro via 8 kHz (0x83), bateria 100%"}
+{"t": 198.9856, "dir": "tx", "hex": "83010008400164", "len": 7, "note": "presencia: X8Pro via 8 kHz (0x83), bateria 100%"}
+{"t": 200.986, "dir": "tx", "hex": "83010008400164", "len": 7, "note": "presencia: X8Pro via 8 kHz (0x83), bateria 100%"}
+{"t": 202.9873, "dir": "tx", "hex": "83010008400164", "len": 7, "note": "presencia: X8Pro via 8 kHz (0x83), bateria 100%"}
+{"t": 204.9886, "dir": "tx", "hex": "83010008400164", "len": 7, "note": "presencia: X8Pro via 8 kHz (0x83), bateria 100%"}
+{"t": 206.9908, "dir": "tx", "hex": "83010008400164", "len": 7, "note": "presencia: X8Pro via 8 kHz (0x83), bateria 100%"}
+{"t": 208.9952, "dir": "tx", "hex": "83010008400164", "len": 7, "note": "presencia: X8Pro via 8 kHz (0x83), bateria 100%"}
+{"t": 210.9965, "dir": "tx", "hex": "83010008400164", "len": 7, "note": "presencia: X8Pro via 8 kHz (0x83), bateria 100%"}
+{"t": 212.9978, "dir": "tx", "hex": "83010008400164", "len": 7, "note": "presencia: X8Pro via 8 kHz (0x83), bateria 100%"}
+{"t": 214.9992, "dir": "tx", "hex": "83010008400164", "len": 7, "note": "presencia: X8Pro via 8 kHz (0x83), bateria 100%"}
+{"t": 217.0007, "dir": "tx", "hex": "83010008400164", "len": 7, "note": "presencia: X8Pro via 8 kHz (0x83), bateria 100%"}
+{"t": 219.0033, "dir": "tx", "hex": "83010008400164", "len": 7, "note": "presencia: X8Pro via 8 kHz (0x83), bateria 100%"}
+{"t": 221.0048, "dir": "tx", "hex": "83010008400164", "len": 7, "note": "presencia: X8Pro via 8 kHz (0x83), bateria 100%"}
+{"t": 222.6679, "dir": "rx", "hex": "830806090122dd00000000000000000000", "len": 17, "note": "ESCRIBIR macro (sub=1) | X8Pro via 8 kHz (0x83) payload=15B"}
+{"t": 222.6693, "dir": "tx", "hex": "8308500100", "len": 5, "note": "ack error (la pagina reintenta)"}
+{"t": 223.0061, "dir": "tx", "hex": "83010008400164", "len": 7, "note": "presencia: X8Pro via 8 kHz (0x83), bateria 100%"}
+{"t": 223.857, "dir": "rx", "hex": "830806090111ee00000000000000000000", "len": 17, "note": "ESCRIBIR macro (sub=1) | X8Pro via 8 kHz (0x83) payload=15B"}
+{"t": 223.8572, "dir": "tx", "hex": "8308500100", "len": 5, "note": "ack error (la pagina reintenta)"}
+{"t": 224.8298, "dir": "rx", "hex": "8308060901778800000000000000000000", "len": 17, "note": "ESCRIBIR macro (sub=1) | X8Pro via 8 kHz (0x83) payload=15B"}
+{"t": 224.8301, "dir": "tx", "hex": "8308500100", "len": 5, "note": "ack error (la pagina reintenta)"}
+{"t": 225.0081, "dir": "tx", "hex": "83010008400164", "len": 7, "note": "presencia: X8Pro via 8 kHz (0x83), bateria 100%"}
+{"t": 227.0098, "dir": "tx", "hex": "83010008400164", "len": 7, "note": "presencia: X8Pro via 8 kHz (0x83), bateria 100%"}
+{"t": 229.0111, "dir": "tx", "hex": "83010008400164", "len": 7, "note": "presencia: X8Pro via 8 kHz (0x83), bateria 100%"}
+{"t": 231.0126, "dir": "tx", "hex": "83010008400164", "len": 7, "note": "presencia: X8Pro via 8 kHz (0x83), bateria 100%"}
+{"t": 233.0151, "dir": "tx", "hex": "83010008400164", "len": 7, "note": "presencia: X8Pro via 8 kHz (0x83), bateria 100%"}
+{"t": 235.0171, "dir": "tx", "hex": "83010008400164", "len": 7, "note": "presencia: X8Pro via 8 kHz (0x83), bateria 100%"}
+{"t": 237.0176, "dir": "tx", "hex": "83010008400164", "len": 7, "note": "presencia: X8Pro via 8 kHz (0x83), bateria 100%"}
+{"t": 239.0183, "dir": "tx", "hex": "83010008400164", "len": 7, "note": "presencia: X8Pro via 8 kHz (0x83), bateria 100%"}
+{"t": 239.9707, "dir": "tx", "hex": "0305", "len": 2, "note": "version del helper 3.5"}
+{"t": 239.9761, "dir": "tx", "hex": "83010008400164", "len": 7, "note": "presencia: X8Pro via 8 kHz (0x83), bateria 100%"}
+{"t": 241.3316, "dir": "rx", "hex": "f083080b00", "len": 5, "note": "LEER  version de firmware (sub=0) | X8Pro via 8 kHz (0x83)"}
+{"t": 241.3384, "dir": "tx", "hex": "83080b08080083010500", "len": 10, "note": "?"}
+{"t": 241.3696, "dir": "rx", "hex": "f083080b00", "len": 5, "note": "LEER  version de firmware (sub=0) | X8Pro via 8 kHz (0x83)"}
+{"t": 241.9777, "dir": "tx", "hex": "83010008400164", "len": 7, "note": "presencia: X8Pro via 8 kHz (0x83), bateria 100%"}
+{"t": 243.9789, "dir": "tx", "hex": "83010008400164", "len": 7, "note": "presencia: X8Pro via 8 kHz (0x83), bateria 100%"}
+{"t": 244.5373, "dir": "tx", "hex": "83080b08080083010500", "len": 10, "note": "?"}
+{"t": 244.5376, "dir": "rx", "hex": "f083080600", "len": 5, "note": "LEER  report rate (sub=0) | X8Pro via 8 kHz (0x83)"}
+{"t": 245.9796, "dir": "tx", "hex": "83010008400164", "len": 7, "note": "presencia: X8Pro via 8 kHz (0x83), bateria 100%"}
+{"t": 247.7055, "dir": "tx", "hex": "830806090144bb00000000", "len": 11, "note": "?"}
+{"t": 247.7057, "dir": "rx", "hex": "f083080500", "len": 5, "note": "LEER  iluminacion (sub=0) | X8Pro via 8 kHz (0x83)"}
+{"t": 247.9803, "dir": "tx", "hex": "83010008400164", "len": 7, "note": "presencia: X8Pro via 8 kHz (0x83), bateria 100%"}
+{"t": 249.9824, "dir": "tx", "hex": "83010008400164", "len": 7, "note": "presencia: X8Pro via 8 kHz (0x83), bateria 100%"}
+{"t": 250.8765, "dir": "tx", "hex": "8308050f010003a800ff00010401af0000", "len": 17, "note": "?"}
+{"t": 250.8766, "dir": "rx", "hex": "f083080400", "len": 5, "note": "LEER  dpi (sub=0) | X8Pro via 8 kHz (0x83)"}
+{"t": 251.983, "dir": "tx", "hex": "83010008400164", "len": 7, "note": "presencia: X8Pro via 8 kHz (0x83), bateria 100%"}
+{"t": 253.9835, "dir": "tx", "hex": "83010008400164", "len": 7, "note": "presencia: X8Pro via 8 kHz (0x83), bateria 100%"}
+{"t": 255.9848, "dir": "tx", "hex": "83010008400164", "len": 7, "note": "presencia: X8Pro via 8 kHz (0x83), bateria 100%"}
+{"t": 256.3266, "dir": "tx", "hex": "830804380101013f2000172f3f6f9f8f0000000000000001000001ff000000ff000000ffffff0000ffffff00ffff4000ffffff020fba00000000", "len": 58, "note": "?"}
+{"t": 257.9861, "dir": "tx", "hex": "83010008400164", "len": 7, "note": "presencia: X8Pro via 8 kHz (0x83), bateria 100%"}
+{"t": 259.9875, "dir": "tx", "hex": "83010008400164", "len": 7, "note": "presencia: X8Pro via 8 kHz (0x83), bateria 100%"}
+{"t": 261.9887, "dir": "tx", "hex": "83010008400164", "len": 7, "note": "presencia: X8Pro via 8 kHz (0x83), bateria 100%"}
+{"t": 263.99, "dir": "tx", "hex": "83010008400164", "len": 7, "note": "presencia: X8Pro via 8 kHz (0x83), bateria 100%"}
+{"t": 265.9905, "dir": "tx", "hex": "83010008400164", "len": 7, "note": "presencia: X8Pro via 8 kHz (0x83), bateria 100%"}
+{"t": 267.9916, "dir": "tx", "hex": "83010008400164", "len": 7, "note": "presencia: X8Pro via 8 kHz (0x83), bateria 100%"}
+{"t": 269.9922, "dir": "tx", "hex": "83010008400164", "len": 7, "note": "presencia: X8Pro via 8 kHz (0x83), bateria 100%"}
+{"t": 271.9929, "dir": "tx", "hex": "83010008400164", "len": 7, "note": "presencia: X8Pro via 8 kHz (0x83), bateria 100%"}
+{"t": 273.9939, "dir": "tx", "hex": "83010008400164", "len": 7, "note": "presencia: X8Pro via 8 kHz (0x83), bateria 100%"}
+{"t": 275.9947, "dir": "tx", "hex": "83010008400164", "len": 7, "note": "presencia: X8Pro via 8 kHz (0x83), bateria 100%"}
+{"t": 277.9975, "dir": "tx", "hex": "83010008400164", "len": 7, "note": "presencia: X8Pro via 8 kHz (0x83), bateria 100%"}
+{"t": 279.9987, "dir": "tx", "hex": "83010008400164", "len": 7, "note": "presencia: X8Pro via 8 kHz (0x83), bateria 100%"}
+{"t": 282.0009, "dir": "tx", "hex": "83010008400164", "len": 7, "note": "presencia: X8Pro via 8 kHz (0x83), bateria 100%"}
+{"t": 284.0025, "dir": "tx", "hex": "83010008400164", "len": 7, "note": "presencia: X8Pro via 8 kHz (0x83), bateria 100%"}
+{"t": 286.0045, "dir": "tx", "hex": "83010008400164", "len": 7, "note": "presencia: X8Pro via 8 kHz (0x83), bateria 100%"}
+{"t": 288.0051, "dir": "tx", "hex": "83010008400164", "len": 7, "note": "presencia: X8Pro via 8 kHz (0x83), bateria 100%"}
+{"t": 290.006, "dir": "tx", "hex": "83010008400164", "len": 7, "note": "presencia: X8Pro via 8 kHz (0x83), bateria 100%"}
+{"t": 292.0069, "dir": "tx", "hex": "83010008400164", "len": 7, "note": "presencia: X8Pro via 8 kHz (0x83), bateria 100%"}
+{"t": 294.0077, "dir": "tx", "hex": "83010008400164", "len": 7, "note": "presencia: X8Pro via 8 kHz (0x83), bateria 100%"}
+{"t": 296.0085, "dir": "tx", "hex": "83010008400164", "len": 7, "note": "presencia: X8Pro via 8 kHz (0x83), bateria 100%"}
+{"t": 298.0099, "dir": "tx", "hex": "83010008400164", "len": 7, "note": "presencia: X8Pro via 8 kHz (0x83), bateria 100%"}
+{"t": 300.0125, "dir": "tx", "hex": "83010008400164", "len": 7, "note": "presencia: X8Pro via 8 kHz (0x83), bateria 100%"}
+{"t": 302.0129, "dir": "tx", "hex": "83010008400164", "len": 7, "note": "presencia: X8Pro via 8 kHz (0x83), bateria 100%"}
+{"t": 304.0139, "dir": "tx", "hex": "83010008400164", "len": 7, "note": "presencia: X8Pro via 8 kHz (0x83), bateria 100%"}
+{"t": 306.0171, "dir": "tx", "hex": "83010008400164", "len": 7, "note": "presencia: X8Pro via 8 kHz (0x83), bateria 100%"}
+{"t": 308.0185, "dir": "tx", "hex": "83010008400164", "len": 7, "note": "presencia: X8Pro via 8 kHz (0x83), bateria 100%"}
+{"t": 310.0201, "dir": "tx", "hex": "83010008400164", "len": 7, "note": "presencia: X8Pro via 8 kHz (0x83), bateria 100%"}
+{"t": 312.0206, "dir": "tx", "hex": "83010008400164", "len": 7, "note": "presencia: X8Pro via 8 kHz (0x83), bateria 100%"}
+{"t": 314.0211, "dir": "tx", "hex": "83010008400164", "len": 7, "note": "presencia: X8Pro via 8 kHz (0x83), bateria 100%"}
+{"t": 316.0233, "dir": "tx", "hex": "83010008400164", "len": 7, "note": "presencia: X8Pro via 8 kHz (0x83), bateria 100%"}
+{"t": 318.0237, "dir": "tx", "hex": "83010008400164", "len": 7, "note": "presencia: X8Pro via 8 kHz (0x83), bateria 100%"}
+{"t": 320.0249, "dir": "tx", "hex": "83010008400164", "len": 7, "note": "presencia: X8Pro via 8 kHz (0x83), bateria 100%"}
+{"t": 322.0274, "dir": "tx", "hex": "83010008400164", "len": 7, "note": "presencia: X8Pro via 8 kHz (0x83), bateria 100%"}
+{"t": 324.0288, "dir": "tx", "hex": "83010008400164", "len": 7, "note": "presencia: X8Pro via 8 kHz (0x83), bateria 100%"}
+{"t": 326.0293, "dir": "tx", "hex": "83010008400164", "len": 7, "note": "presencia: X8Pro via 8 kHz (0x83), bateria 100%"}
+{"t": 328.0304, "dir": "tx", "hex": "83010008400164", "len": 7, "note": "presencia: X8Pro via 8 kHz (0x83), bateria 100%"}
+{"t": 330.0318, "dir": "tx", "hex": "83010008400164", "len": 7, "note": "presencia: X8Pro via 8 kHz (0x83), bateria 100%"}
+{"t": 332.0332, "dir": "tx", "hex": "83010008400164", "len": 7, "note": "presencia: X8Pro via 8 kHz (0x83), bateria 100%"}
+{"t": 334.0338, "dir": "tx", "hex": "83010008400164", "len": 7, "note": "presencia: X8Pro via 8 kHz (0x83), bateria 100%"}
+{"t": 336.0351, "dir": "tx", "hex": "83010008400164", "len": 7, "note": "presencia: X8Pro via 8 kHz (0x83), bateria 100%"}
+{"t": 338.0355, "dir": "tx", "hex": "83010008400164", "len": 7, "note": "presencia: X8Pro via 8 kHz (0x83), bateria 100%"}
+{"t": 340.0362, "dir": "tx", "hex": "83010008400164", "len": 7, "note": "presencia: X8Pro via 8 kHz (0x83), bateria 100%"}
+{"t": 342.0367, "dir": "tx", "hex": "83010008400164", "len": 7, "note": "presencia: X8Pro via 8 kHz (0x83), bateria 100%"}
+{"t": 344.0374, "dir": "tx", "hex": "83010008400164", "len": 7, "note": "presencia: X8Pro via 8 kHz (0x83), bateria 100%"}
+{"t": 346.0389, "dir": "tx", "hex": "83010008400164", "len": 7, "note": "presencia: X8Pro via 8 kHz (0x83), bateria 100%"}
+{"t": 348.0396, "dir": "tx", "hex": "83010008400164", "len": 7, "note": "presencia: X8Pro via 8 kHz (0x83), bateria 100%"}
+{"t": 350.0408, "dir": "tx", "hex": "83010008400164", "len": 7, "note": "presencia: X8Pro via 8 kHz (0x83), bateria 100%"}
+{"t": 352.0436, "dir": "tx", "hex": "83010008400164", "len": 7, "note": "presencia: X8Pro via 8 kHz (0x83), bateria 100%"}
+{"t": 354.0451, "dir": "tx", "hex": "83010008400164", "len": 7, "note": "presencia: X8Pro via 8 kHz (0x83), bateria 100%"}
+{"t": 356.0457, "dir": "tx", "hex": "83010008400164", "len": 7, "note": "presencia: X8Pro via 8 kHz (0x83), bateria 100%"}
+{"t": 358.0467, "dir": "tx", "hex": "83010008400164", "len": 7, "note": "presencia: X8Pro via 8 kHz (0x83), bateria 100%"}
+{"t": 360.0481, "dir": "tx", "hex": "83010008400164", "len": 7, "note": "presencia: X8Pro via 8 kHz (0x83), bateria 100%"}
+{"t": 362.0486, "dir": "tx", "hex": "83010008400164", "len": 7, "note": "presencia: X8Pro via 8 kHz (0x83), bateria 100%"}
+{"t": 364.0493, "dir": "tx", "hex": "83010008400164", "len": 7, "note": "presencia: X8Pro via 8 kHz (0x83), bateria 100%"}
+{"t": 366.0795, "dir": "tx", "hex": "83010008400164", "len": 7, "note": "presencia: X8Pro via 8 kHz (0x83), bateria 100%"}
+{"t": 368.0818, "dir": "tx", "hex": "83010008400164", "len": 7, "note": "presencia: X8Pro via 8 kHz (0x83), bateria 100%"}
+{"t": 370.0828, "dir": "tx", "hex": "83010008400164", "len": 7, "note": "presencia: X8Pro via 8 kHz (0x83), bateria 100%"}
+{"t": 372.0835, "dir": "tx", "hex": "83010008400164", "len": 7, "note": "presencia: X8Pro via 8 kHz (0x83), bateria 100%"}
+{"t": 374.0842, "dir": "tx", "hex": "83010008400164", "len": 7, "note": "presencia: X8Pro via 8 kHz (0x83), bateria 100%"}
+{"t": 376.0854, "dir": "tx", "hex": "83010008400164", "len": 7, "note": "presencia: X8Pro via 8 kHz (0x83), bateria 100%"}
+{"t": 378.0867, "dir": "tx", "hex": "83010008400164", "len": 7, "note": "presencia: X8Pro via 8 kHz (0x83), bateria 100%"}
+{"t": 380.0872, "dir": "tx", "hex": "83010008400164", "len": 7, "note": "presencia: X8Pro via 8 kHz (0x83), bateria 100%"}
+{"t": 382.0884, "dir": "tx", "hex": "83010008400164", "len": 7, "note": "presencia: X8Pro via 8 kHz (0x83), bateria 100%"}
+{"t": 384.0893, "dir": "tx", "hex": "83010008400164", "len": 7, "note": "presencia: X8Pro via 8 kHz (0x83), bateria 100%"}
+{"t": 386.09, "dir": "tx", "hex": "83010008400164", "len": 7, "note": "presencia: X8Pro via 8 kHz (0x83), bateria 100%"}
+{"t": 388.0907, "dir": "tx", "hex": "83010008400164", "len": 7, "note": "presencia: X8Pro via 8 kHz (0x83), bateria 100%"}
+{"t": 390.0917, "dir": "tx", "hex": "83010008400164", "len": 7, "note": "presencia: X8Pro via 8 kHz (0x83), bateria 100%"}
+{"t": 392.0927, "dir": "tx", "hex": "83010008400164", "len": 7, "note": "presencia: X8Pro via 8 kHz (0x83), bateria 100%"}
+{"t": 394.0932, "dir": "tx", "hex": "83010008400164", "len": 7, "note": "presencia: X8Pro via 8 kHz (0x83), bateria 100%"}
+{"t": 396.0939, "dir": "tx", "hex": "83010008400164", "len": 7, "note": "presencia: X8Pro via 8 kHz (0x83), bateria 100%"}
+{"t": 398.0946, "dir": "tx", "hex": "83010008400164", "len": 7, "note": "presencia: X8Pro via 8 kHz (0x83), bateria 100%"}
+{"t": 400.0962, "dir": "tx", "hex": "83010008400164", "len": 7, "note": "presencia: X8Pro via 8 kHz (0x83), bateria 100%"}
+{"t": 402.0976, "dir": "tx", "hex": "83010008400164", "len": 7, "note": "presencia: X8Pro via 8 kHz (0x83), bateria 100%"}
+{"t": 404.0985, "dir": "tx", "hex": "83010008400164", "len": 7, "note": "presencia: X8Pro via 8 kHz (0x83), bateria 100%"}
+{"t": 406.101, "dir": "tx", "hex": "83010008400164", "len": 7, "note": "presencia: X8Pro via 8 kHz (0x83), bateria 100%"}
+{"t": 408.1016, "dir": "tx", "hex": "83010008400164", "len": 7, "note": "presencia: X8Pro via 8 kHz (0x83), bateria 100%"}
+{"t": 410.1027, "dir": "tx", "hex": "83010008400164", "len": 7, "note": "presencia: X8Pro via 8 kHz (0x83), bateria 100%"}
+{"t": 412.1039, "dir": "tx", "hex": "83010008400164", "len": 7, "note": "presencia: X8Pro via 8 kHz (0x83), bateria 100%"}
+{"t": 414.1048, "dir": "tx", "hex": "83010008400164", "len": 7, "note": "presencia: X8Pro via 8 kHz (0x83), bateria 100%"}
+{"t": 416.1058, "dir": "tx", "hex": "83010008400164", "len": 7, "note": "presencia: X8Pro via 8 kHz (0x83), bateria 100%"}
+{"t": 418.107, "dir": "tx", "hex": "83010008400164", "len": 7, "note": "presencia: X8Pro via 8 kHz (0x83), bateria 100%"}
+{"t": 420.1075, "dir": "tx", "hex": "83010008400164", "len": 7, "note": "presencia: X8Pro via 8 kHz (0x83), bateria 100%"}
+{"t": 422.1082, "dir": "tx", "hex": "83010008400164", "len": 7, "note": "presencia: X8Pro via 8 kHz (0x83), bateria 100%"}
+{"t": 424.109, "dir": "tx", "hex": "83010008400164", "len": 7, "note": "presencia: X8Pro via 8 kHz (0x83), bateria 100%"}
+{"t": 426.1098, "dir": "tx", "hex": "83010008400164", "len": 7, "note": "presencia: X8Pro via 8 kHz (0x83), bateria 100%"}
+{"t": 428.1135, "dir": "tx", "hex": "83010008400164", "len": 7, "note": "presencia: X8Pro via 8 kHz (0x83), bateria 100%"}
+{"t": 430.1179, "dir": "tx", "hex": "83010008400164", "len": 7, "note": "presencia: X8Pro via 8 kHz (0x83), bateria 100%"}
+{"t": 432.1185, "dir": "tx", "hex": "83010008400164", "len": 7, "note": "presencia: X8Pro via 8 kHz (0x83), bateria 100%"}
+{"t": 434.1199, "dir": "tx", "hex": "83010008400164", "len": 7, "note": "presencia: X8Pro via 8 kHz (0x83), bateria 100%"}
+{"t": 436.1206, "dir": "tx", "hex": "83010008400164", "len": 7, "note": "presencia: X8Pro via 8 kHz (0x83), bateria 100%"}
+{"t": 438.1213, "dir": "tx", "hex": "83010008400164", "len": 7, "note": "presencia: X8Pro via 8 kHz (0x83), bateria 100%"}
+{"t": 440.1225, "dir": "tx", "hex": "83010008400164", "len": 7, "note": "presencia: X8Pro via 8 kHz (0x83), bateria 100%"}
+{"t": 442.1231, "dir": "tx", "hex": "83010008400164", "len": 7, "note": "presencia: X8Pro via 8 kHz (0x83), bateria 100%"}
+{"t": 444.1237, "dir": "tx", "hex": "83010008400164", "len": 7, "note": "presencia: X8Pro via 8 kHz (0x83), bateria 100%"}
+{"t": 446.1245, "dir": "tx", "hex": "83010008400164", "len": 7, "note": "presencia: X8Pro via 8 kHz (0x83), bateria 100%"}
+{"t": 448.1252, "dir": "tx", "hex": "83010008400164", "len": 7, "note": "presencia: X8Pro via 8 kHz (0x83), bateria 100%"}
+{"t": 450.126, "dir": "tx", "hex": "83010008400164", "len": 7, "note": "presencia: X8Pro via 8 kHz (0x83), bateria 100%"}
+{"t": 452.1273, "dir": "tx", "hex": "83010008400164", "len": 7, "note": "presencia: X8Pro via 8 kHz (0x83), bateria 100%"}
+{"t": 454.1277, "dir": "tx", "hex": "83010008400164", "len": 7, "note": "presencia: X8Pro via 8 kHz (0x83), bateria 100%"}
+{"t": 456.1285, "dir": "tx", "hex": "83010008400164", "len": 7, "note": "presencia: X8Pro via 8 kHz (0x83), bateria 100%"}
+{"t": 458.1291, "dir": "tx", "hex": "83010008400164", "len": 7, "note": "presencia: X8Pro via 8 kHz (0x83), bateria 100%"}
+{"t": 460.1302, "dir": "tx", "hex": "83010008400164", "len": 7, "note": "presencia: X8Pro via 8 kHz (0x83), bateria 100%"}
+{"t": 462.1307, "dir": "tx", "hex": "83010008400164", "len": 7, "note": "presencia: X8Pro via 8 kHz (0x83), bateria 100%"}
+{"t": 464.132, "dir": "tx", "hex": "83010008400164", "len": 7, "note": "presencia: X8Pro via 8 kHz (0x83), bateria 100%"}
+{"t": 466.1335, "dir": "tx", "hex": "83010008400164", "len": 7, "note": "presencia: X8Pro via 8 kHz (0x83), bateria 100%"}
+{"t": 468.1341, "dir": "tx", "hex": "83010008400164", "len": 7, "note": "presencia: X8Pro via 8 kHz (0x83), bateria 100%"}
+{"t": 470.1349, "dir": "tx", "hex": "83010008400164", "len": 7, "note": "presencia: X8Pro via 8 kHz (0x83), bateria 100%"}
+{"t": 472.1356, "dir": "tx", "hex": "83010008400164", "len": 7, "note": "presencia: X8Pro via 8 kHz (0x83), bateria 100%"}
+{"t": 474.1363, "dir": "tx", "hex": "83010008400164", "len": 7, "note": "presencia: X8Pro via 8 kHz (0x83), bateria 100%"}
+{"t": 476.1376, "dir": "tx", "hex": "83010008400164", "len": 7, "note": "presencia: X8Pro via 8 kHz (0x83), bateria 100%"}
+{"t": 478.1389, "dir": "tx", "hex": "83010008400164", "len": 7, "note": "presencia: X8Pro via 8 kHz (0x83), bateria 100%"}
+{"t": 480.1397, "dir": "tx", "hex": "83010008400164", "len": 7, "note": "presencia: X8Pro via 8 kHz (0x83), bateria 100%"}
+{"t": 482.141, "dir": "tx", "hex": "83010008400164", "len": 7, "note": "presencia: X8Pro via 8 kHz (0x83), bateria 100%"}
+{"t": 484.1414, "dir": "tx", "hex": "83010008400164", "len": 7, "note": "presencia: X8Pro via 8 kHz (0x83), bateria 100%"}
+{"t": 486.1427, "dir": "tx", "hex": "83010008400164", "len": 7, "note": "presencia: X8Pro via 8 kHz (0x83), bateria 100%"}
+{"t": 488.1431, "dir": "tx", "hex": "83010008400164", "len": 7, "note": "presencia: X8Pro via 8 kHz (0x83), bateria 100%"}
+{"t": 490.144, "dir": "tx", "hex": "83010008400164", "len": 7, "note": "presencia: X8Pro via 8 kHz (0x83), bateria 100%"}
+{"t": 492.1443, "dir": "tx", "hex": "83010008400164", "len": 7, "note": "presencia: X8Pro via 8 kHz (0x83), bateria 100%"}
+{"t": 494.1451, "dir": "tx", "hex": "83010008400164", "len": 7, "note": "presencia: X8Pro via 8 kHz (0x83), bateria 100%"}
+{"t": 496.1455, "dir": "tx", "hex": "83010008400164", "len": 7, "note": "presencia: X8Pro via 8 kHz (0x83), bateria 100%"}
+{"t": 498.1461, "dir": "tx", "hex": "83010008400164", "len": 7, "note": "presencia: X8Pro via 8 kHz (0x83), bateria 100%"}
+{"t": 500.1467, "dir": "tx", "hex": "83010008400164", "len": 7, "note": "presencia: X8Pro via 8 kHz (0x83), bateria 100%"}
+{"t": 502.1479, "dir": "tx", "hex": "83010008400164", "len": 7, "note": "presencia: X8Pro via 8 kHz (0x83), bateria 100%"}
+{"t": 504.1482, "dir": "tx", "hex": "83010008400164", "len": 7, "note": "presencia: X8Pro via 8 kHz (0x83), bateria 100%"}
+{"t": 506.1497, "dir": "tx", "hex": "83010008400164", "len": 7, "note": "presencia: X8Pro via 8 kHz (0x83), bateria 100%"}
+{"t": 508.15, "dir": "tx", "hex": "83010008400164", "len": 7, "note": "presencia: X8Pro via 8 kHz (0x83), bateria 100%"}
+{"t": 510.1505, "dir": "tx", "hex": "83010008400164", "len": 7, "note": "presencia: X8Pro via 8 kHz (0x83), bateria 100%"}
+{"t": 512.1508, "dir": "tx", "hex": "83010008400164", "len": 7, "note": "presencia: X8Pro via 8 kHz (0x83), bateria 100%"}
+{"t": 514.1514, "dir": "tx", "hex": "83010008400164", "len": 7, "note": "presencia: X8Pro via 8 kHz (0x83), bateria 100%"}
+{"t": 516.1517, "dir": "tx", "hex": "83010008400164", "len": 7, "note": "presencia: X8Pro via 8 kHz (0x83), bateria 100%"}
+{"t": 518.1526, "dir": "tx", "hex": "83010008400164", "len": 7, "note": "presencia: X8Pro via 8 kHz (0x83), bateria 100%"}
+{"t": 520.1532, "dir": "tx", "hex": "83010008400164", "len": 7, "note": "presencia: X8Pro via 8 kHz (0x83), bateria 100%"}
+{"t": 522.1542, "dir": "tx", "hex": "83010008400164", "len": 7, "note": "presencia: X8Pro via 8 kHz (0x83), bateria 100%"}
+{"t": 524.1546, "dir": "tx", "hex": "83010008400164", "len": 7, "note": "presencia: X8Pro via 8 kHz (0x83), bateria 100%"}
+{"t": 526.1564, "dir": "tx", "hex": "83010008400164", "len": 7, "note": "presencia: X8Pro via 8 kHz (0x83), bateria 100%"}
+{"t": 528.1568, "dir": "tx", "hex": "83010008400164", "len": 7, "note": "presencia: X8Pro via 8 kHz (0x83), bateria 100%"}
+{"t": 530.1572, "dir": "tx", "hex": "83010008400164", "len": 7, "note": "presencia: X8Pro via 8 kHz (0x83), bateria 100%"}
+{"t": 532.1575, "dir": "tx", "hex": "83010008400164", "len": 7, "note": "presencia: X8Pro via 8 kHz (0x83), bateria 100%"}
+{"t": 534.1579, "dir": "tx", "hex": "83010008400164", "len": 7, "note": "presencia: X8Pro via 8 kHz (0x83), bateria 100%"}
+{"t": 536.1582, "dir": "tx", "hex": "83010008400164", "len": 7, "note": "presencia: X8Pro via 8 kHz (0x83), bateria 100%"}
+{"t": 538.1589, "dir": "tx", "hex": "83010008400164", "len": 7, "note": "presencia: X8Pro via 8 kHz (0x83), bateria 100%"}
+{"t": 540.1606, "dir": "tx", "hex": "83010008400164", "len": 7, "note": "presencia: X8Pro via 8 kHz (0x83), bateria 100%"}
+{"t": 542.1618, "dir": "tx", "hex": "83010008400164", "len": 7, "note": "presencia: X8Pro via 8 kHz (0x83), bateria 100%"}
+{"t": 544.1623, "dir": "tx", "hex": "83010008400164", "len": 7, "note": "presencia: X8Pro via 8 kHz (0x83), bateria 100%"}
+{"t": 546.1645, "dir": "tx", "hex": "83010008400164", "len": 7, "note": "presencia: X8Pro via 8 kHz (0x83), bateria 100%"}
+{"t": 548.1661, "dir": "tx", "hex": "83010008400164", "len": 7, "note": "presencia: X8Pro via 8 kHz (0x83), bateria 100%"}
+{"t": 550.1678, "dir": "tx", "hex": "83010008400164", "len": 7, "note": "presencia: X8Pro via 8 kHz (0x83), bateria 100%"}
+{"t": 552.1688, "dir": "tx", "hex": "83010008400164", "len": 7, "note": "presencia: X8Pro via 8 kHz (0x83), bateria 100%"}
+{"t": 554.1696, "dir": "tx", "hex": "83010008400164", "len": 7, "note": "presencia: X8Pro via 8 kHz (0x83), bateria 100%"}
+{"t": 556.1703, "dir": "tx", "hex": "83010008400164", "len": 7, "note": "presencia: X8Pro via 8 kHz (0x83), bateria 100%"}
+{"t": 558.1713, "dir": "tx", "hex": "83010008400164", "len": 7, "note": "presencia: X8Pro via 8 kHz (0x83), bateria 100%"}
+{"t": 560.1721, "dir": "tx", "hex": "83010008400164", "len": 7, "note": "presencia: X8Pro via 8 kHz (0x83), bateria 100%"}
+{"t": 562.1726, "dir": "tx", "hex": "83010008400164", "len": 7, "note": "presencia: X8Pro via 8 kHz (0x83), bateria 100%"}
+{"t": 564.1748, "dir": "tx", "hex": "83010008400164", "len": 7, "note": "presencia: X8Pro via 8 kHz (0x83), bateria 100%"}
+{"t": 566.1752, "dir": "tx", "hex": "83010008400164", "len": 7, "note": "presencia: X8Pro via 8 kHz (0x83), bateria 100%"}
+{"t": 568.176, "dir": "tx", "hex": "83010008400164", "len": 7, "note": "presencia: X8Pro via 8 kHz (0x83), bateria 100%"}
+{"t": 570.1772, "dir": "tx", "hex": "83010008400164", "len": 7, "note": "presencia: X8Pro via 8 kHz (0x83), bateria 100%"}
+{"t": 572.1789, "dir": "tx", "hex": "83010008400164", "len": 7, "note": "presencia: X8Pro via 8 kHz (0x83), bateria 100%"}
+{"t": 574.1795, "dir": "tx", "hex": "83010008400164", "len": 7, "note": "presencia: X8Pro via 8 kHz (0x83), bateria 100%"}
+{"t": 576.1803, "dir": "tx", "hex": "83010008400164", "len": 7, "note": "presencia: X8Pro via 8 kHz (0x83), bateria 100%"}
+{"t": 578.1809, "dir": "tx", "hex": "83010008400164", "len": 7, "note": "presencia: X8Pro via 8 kHz (0x83), bateria 100%"}
+{"t": 580.182, "dir": "tx", "hex": "83010008400164", "len": 7, "note": "presencia: X8Pro via 8 kHz (0x83), bateria 100%"}
+{"t": 582.1826, "dir": "tx", "hex": "83010008400164", "len": 7, "note": "presencia: X8Pro via 8 kHz (0x83), bateria 100%"}
+{"t": 584.1833, "dir": "tx", "hex": "83010008400164", "len": 7, "note": "presencia: X8Pro via 8 kHz (0x83), bateria 100%"}
+{"t": 586.1841, "dir": "tx", "hex": "83010008400164", "len": 7, "note": "presencia: X8Pro via 8 kHz (0x83), bateria 100%"}
+{"t": 588.1851, "dir": "tx", "hex": "83010008400164", "len": 7, "note": "presencia: X8Pro via 8 kHz (0x83), bateria 100%"}
+{"t": 590.1856, "dir": "tx", "hex": "83010008400164", "len": 7, "note": "presencia: X8Pro via 8 kHz (0x83), bateria 100%"}
+{"t": 592.1864, "dir": "tx", "hex": "83010008400164", "len": 7, "note": "presencia: X8Pro via 8 kHz (0x83), bateria 100%"}
+{"t": 594.1872, "dir": "tx", "hex": "83010008400164", "len": 7, "note": "presencia: X8Pro via 8 kHz (0x83), bateria 100%"}
+{"t": 596.188, "dir": "tx", "hex": "83010008400164", "len": 7, "note": "presencia: X8Pro via 8 kHz (0x83), bateria 100%"}
+{"t": 598.1888, "dir": "tx", "hex": "83010008400164", "len": 7, "note": "presencia: X8Pro via 8 kHz (0x83), bateria 100%"}
+{"t": 600.1891, "dir": "tx", "hex": "83010008400164", "len": 7, "note": "presencia: X8Pro via 8 kHz (0x83), bateria 100%"}
+{"t": 602.1903, "dir": "tx", "hex": "83010008400164", "len": 7, "note": "presencia: X8Pro via 8 kHz (0x83), bateria 100%"}
+{"t": 604.1913, "dir": "tx", "hex": "83010008400164", "len": 7, "note": "presencia: X8Pro via 8 kHz (0x83), bateria 100%"}
+{"t": 606.192, "dir": "tx", "hex": "83010008400164", "len": 7, "note": "presencia: X8Pro via 8 kHz (0x83), bateria 100%"}
+{"t": 608.1929, "dir": "tx", "hex": "83010008400164", "len": 7, "note": "presencia: X8Pro via 8 kHz (0x83), bateria 100%"}
+{"t": 610.1935, "dir": "tx", "hex": "83010008400164", "len": 7, "note": "presencia: X8Pro via 8 kHz (0x83), bateria 100%"}
+{"t": 612.194, "dir": "tx", "hex": "83010008400164", "len": 7, "note": "presencia: X8Pro via 8 kHz (0x83), bateria 100%"}
+{"t": 614.1952, "dir": "tx", "hex": "83010008400164", "len": 7, "note": "presencia: X8Pro via 8 kHz (0x83), bateria 100%"}
+{"t": 616.1957, "dir": "tx", "hex": "83010008400164", "len": 7, "note": "presencia: X8Pro via 8 kHz (0x83), bateria 100%"}
+{"t": 618.1967, "dir": "tx", "hex": "83010008400164", "len": 7, "note": "presencia: X8Pro via 8 kHz (0x83), bateria 100%"}
+{"t": 620.1977, "dir": "tx", "hex": "83010008400164", "len": 7, "note": "presencia: X8Pro via 8 kHz (0x83), bateria 100%"}
+{"t": 622.1981, "dir": "tx", "hex": "83010008400164", "len": 7, "note": "presencia: X8Pro via 8 kHz (0x83), bateria 100%"}
+{"t": 624.1984, "dir": "tx", "hex": "83010008400164", "len": 7, "note": "presencia: X8Pro via 8 kHz (0x83), bateria 100%"}
+{"t": 626.1988, "dir": "tx", "hex": "83010008400164", "len": 7, "note": "presencia: X8Pro via 8 kHz (0x83), bateria 100%"}
+{"t": 628.1993, "dir": "tx", "hex": "83010008400164", "len": 7, "note": "presencia: X8Pro via 8 kHz (0x83), bateria 100%"}
+{"t": 630.1996, "dir": "tx", "hex": "83010008400164", "len": 7, "note": "presencia: X8Pro via 8 kHz (0x83), bateria 100%"}
+{"t": 632.2001, "dir": "tx", "hex": "83010008400164", "len": 7, "note": "presencia: X8Pro via 8 kHz (0x83), bateria 100%"}
+{"t": 634.2004, "dir": "tx", "hex": "83010008400164", "len": 7, "note": "presencia: X8Pro via 8 kHz (0x83), bateria 100%"}
+{"t": 636.2011, "dir": "tx", "hex": "83010008400164", "len": 7, "note": "presencia: X8Pro via 8 kHz (0x83), bateria 100%"}
+{"t": 638.2016, "dir": "tx", "hex": "83010008400164", "len": 7, "note": "presencia: X8Pro via 8 kHz (0x83), bateria 100%"}
+{"t": 640.2026, "dir": "tx", "hex": "83010008400164", "len": 7, "note": "presencia: X8Pro via 8 kHz (0x83), bateria 100%"}
+{"t": 642.203, "dir": "tx", "hex": "83010008400164", "len": 7, "note": "presencia: X8Pro via 8 kHz (0x83), bateria 100%"}
+{"t": 644.2038, "dir": "tx", "hex": "83010008400164", "len": 7, "note": "presencia: X8Pro via 8 kHz (0x83), bateria 100%"}
+{"t": 60.5549, "dir": "tx", "hex": "0305", "len": 2, "note": "version del helper 3.5"}
+{"t": 60.5559, "dir": "tx", "hex": "83010008400264", "len": 7, "note": "presencia: X8Pro via 8 kHz (0x83), bateria 100%"}
+{"t": 61.6227, "dir": "rx", "hex": "f083080b00", "len": 5, "note": "LEER  version de firmware (sub=0) | X8Pro via 8 kHz (0x83)"}
+{"t": 61.63, "dir": "tx", "hex": "83080b08080083010500", "len": 10, "note": "?"}
+{"t": 61.6316, "dir": "rx", "hex": "f083080b00", "len": 5, "note": "LEER  version de firmware (sub=0) | X8Pro via 8 kHz (0x83)"}
+{"t": 62.5565, "dir": "tx", "hex": "83010008400164", "len": 7, "note": "presencia: X8Pro via 8 kHz (0x83), bateria 100%"}
+{"t": 64.5574, "dir": "tx", "hex": "83010008400164", "len": 7, "note": "presencia: X8Pro via 8 kHz (0x83), bateria 100%"}
+{"t": 64.7962, "dir": "tx", "hex": "83080b08080083010500", "len": 10, "note": "?"}
+{"t": 64.7963, "dir": "rx", "hex": "f083080600", "len": 5, "note": "LEER  report rate (sub=0) | X8Pro via 8 kHz (0x83)"}
+{"t": 66.5586, "dir": "tx", "hex": "83010008400200", "len": 7, "note": "presencia: X8Pro via 8 kHz (0x83), bateria 0%"}
+{"t": 68.5592, "dir": "tx", "hex": "83010008400164", "len": 7, "note": "presencia: X8Pro via 8 kHz (0x83), bateria 100%"}
+{"t": 68.6646, "dir": "tx", "hex": "830806090104bb00000000", "len": 11, "note": "?"}
+{"t": 68.6647, "dir": "rx", "hex": "f083080500", "len": 5, "note": "LEER  iluminacion (sub=0) | X8Pro via 8 kHz (0x83)"}
+{"t": 68.6859, "dir": "tx", "hex": "8308050f010003a800ff00010401af0000", "len": 17, "note": "?"}
+{"t": 68.686, "dir": "rx", "hex": "f083080400", "len": 5, "note": "LEER  dpi (sub=0) | X8Pro via 8 kHz (0x83)"}
+{"t": 70.2681, "dir": "tx", "hex": "0305", "len": 2, "note": "version del helper 3.5"}
+{"t": 70.2682, "dir": "tx", "hex": "83010008400164", "len": 7, "note": "presencia: X8Pro via 8 kHz (0x83), bateria 100%"}
+{"t": 71.3368, "dir": "rx", "hex": "f083080b00", "len": 5, "note": "LEER  version de firmware (sub=0) | X8Pro via 8 kHz (0x83)"}
+{"t": 71.3581, "dir": "tx", "hex": "83080b08080083010500", "len": 10, "note": "?"}
+{"t": 71.3592, "dir": "rx", "hex": "f083080b00", "len": 5, "note": "LEER  version de firmware (sub=0) | X8Pro via 8 kHz (0x83)"}
+{"t": 74.5324, "dir": "tx", "hex": "0305", "len": 2, "note": "version del helper 3.5"}
+{"t": 74.5327, "dir": "tx", "hex": "83010008400164", "len": 7, "note": "presencia: X8Pro via 8 kHz (0x83), bateria 100%"}
+{"t": 76.086, "dir": "rx", "hex": "830804380100013f00001327355e87e70000000000000001000001ff000000ff000000ffffff0000ffffff00ffff4000ffffff020fb20000000000000000", "len": 62, "note": "ESCRIBIR cmd 56 (sub=1) | X8Pro via 8 kHz (0x83) payload=60B"}
+{"t": 76.0863, "dir": "tx", "hex": "8308500100", "len": 5, "note": "ack error (la pagina reintenta)"}
+{"t": 76.5336, "dir": "tx", "hex": "83010008400164", "len": 7, "note": "presencia: X8Pro via 8 kHz (0x83), bateria 100%"}
+{"t": 78.1167, "dir": "tx", "hex": "0305", "len": 2, "note": "version del helper 3.5"}
+{"t": 78.1169, "dir": "tx", "hex": "83010008400164", "len": 7, "note": "presencia: X8Pro via 8 kHz (0x83), bateria 100%"}
+{"t": 79.181, "dir": "rx", "hex": "f083080b00", "len": 5, "note": "LEER  version de firmware (sub=0) | X8Pro via 8 kHz (0x83)"}
+{"t": 79.1968, "dir": "tx", "hex": "83080b08080083010500", "len": 10, "note": "?"}
+{"t": 79.1977, "dir": "rx", "hex": "f083080b00", "len": 5, "note": "LEER  version de firmware (sub=0) | X8Pro via 8 kHz (0x83)"}
+{"t": 80.118, "dir": "tx", "hex": "83010008400164", "len": 7, "note": "presencia: X8Pro via 8 kHz (0x83), bateria 100%"}
+{"t": 82.1184, "dir": "tx", "hex": "83010008400300", "len": 7, "note": "presencia: X8Pro via 8 kHz (0x83), bateria 0%"}
+{"t": 82.3804, "dir": "tx", "hex": "83080b08080083010500", "len": 10, "note": "?"}
+{"t": 82.3805, "dir": "rx", "hex": "f083080600", "len": 5, "note": "LEER  report rate (sub=0) | X8Pro via 8 kHz (0x83)"}
+{"t": 84.1188, "dir": "tx", "hex": "83010008400100", "len": 7, "note": "presencia: X8Pro via 8 kHz (0x83), bateria 0%"}
+{"t": 85.5486, "dir": "tx", "hex": "830806090104bb00000000", "len": 11, "note": "?"}
+{"t": 85.5487, "dir": "rx", "hex": "f083080500", "len": 5, "note": "LEER  iluminacion (sub=0) | X8Pro via 8 kHz (0x83)"}
+{"t": 86.12, "dir": "tx", "hex": "83010008400164", "len": 7, "note": "presencia: X8Pro via 8 kHz (0x83), bateria 100%"}
+{"t": 88.1211, "dir": "tx", "hex": "83010008400164", "len": 7, "note": "presencia: X8Pro via 8 kHz (0x83), bateria 100%"}
+{"t": 88.7166, "dir": "tx", "hex": "8308050f010003a800ff00010401af0000", "len": 17, "note": "?"}
+{"t": 88.7167, "dir": "rx", "hex": "f083080400", "len": 5, "note": "LEER  dpi (sub=0) | X8Pro via 8 kHz (0x83)"}
+{"t": 90.123, "dir": "tx", "hex": "83010008400164", "len": 7, "note": "presencia: X8Pro via 8 kHz (0x83), bateria 100%"}
+{"t": 91.8869, "dir": "tx", "hex": "830804380101013f2000172f3f6f9f8f0000000000000001000001ff000000ff000000ffffff0000ffffff00ffff4000ffffff020fba00000000", "len": 58, "note": "?"}
+{"t": 92.1255, "dir": "tx", "hex": "83010008400164", "len": 7, "note": "presencia: X8Pro via 8 kHz (0x83), bateria 100%"}
+{"t": 94.1263, "dir": "tx", "hex": "83010008400164", "len": 7, "note": "presencia: X8Pro via 8 kHz (0x83), bateria 100%"}
+{"t": 96.1269, "dir": "tx", "hex": "83010008400164", "len": 7, "note": "presencia: X8Pro via 8 kHz (0x83), bateria 100%"}
+{"t": 98.1285, "dir": "tx", "hex": "83010008400164", "len": 7, "note": "presencia: X8Pro via 8 kHz (0x83), bateria 100%"}
+{"t": 100.1296, "dir": "tx", "hex": "83010008400164", "len": 7, "note": "presencia: X8Pro via 8 kHz (0x83), bateria 100%"}
+{"t": 102.1303, "dir": "tx", "hex": "83010008400164", "len": 7, "note": "presencia: X8Pro via 8 kHz (0x83), bateria 100%"}
+{"t": 104.131, "dir": "tx", "hex": "83010008400164", "len": 7, "note": "presencia: X8Pro via 8 kHz (0x83), bateria 100%"}
+{"t": 106.1319, "dir": "tx", "hex": "83010008400164", "len": 7, "note": "presencia: X8Pro via 8 kHz (0x83), bateria 100%"}
+{"t": 108.1324, "dir": "tx", "hex": "83010008400164", "len": 7, "note": "presencia: X8Pro via 8 kHz (0x83), bateria 100%"}
+{"t": 110.1337, "dir": "tx", "hex": "83010008400164", "len": 7, "note": "presencia: X8Pro via 8 kHz (0x83), bateria 100%"}
+{"t": 112.1341, "dir": "tx", "hex": "83010008400164", "len": 7, "note": "presencia: X8Pro via 8 kHz (0x83), bateria 100%"}
+{"t": 114.135, "dir": "tx", "hex": "83010008400164", "len": 7, "note": "presencia: X8Pro via 8 kHz (0x83), bateria 100%"}
+{"t": 116.1362, "dir": "tx", "hex": "83010008400164", "len": 7, "note": "presencia: X8Pro via 8 kHz (0x83), bateria 100%"}
+{"t": 117.1374, "dir": "tx", "hex": "0305", "len": 2, "note": "version del helper 3.5"}
+{"t": 117.1375, "dir": "tx", "hex": "83010008400164", "len": 7, "note": "presencia: X8Pro via 8 kHz (0x83), bateria 100%"}
+{"t": 118.1875, "dir": "rx", "hex": "f083080b00", "len": 5, "note": "LEER  version de firmware (sub=0) | X8Pro via 8 kHz (0x83)"}
+{"t": 118.2039, "dir": "tx", "hex": "83080b08080083010500", "len": 10, "note": "?"}
+{"t": 118.2047, "dir": "rx", "hex": "f083080b00", "len": 5, "note": "LEER  version de firmware (sub=0) | X8Pro via 8 kHz (0x83)"}
+{"t": 119.1383, "dir": "tx", "hex": "83010008400164", "len": 7, "note": "presencia: X8Pro via 8 kHz (0x83), bateria 100%"}
+{"t": 121.1395, "dir": "tx", "hex": "83010008400164", "len": 7, "note": "presencia: X8Pro via 8 kHz (0x83), bateria 100%"}
+{"t": 121.3724, "dir": "tx", "hex": "83080b08080083010500", "len": 10, "note": "?"}
+{"t": 121.3725, "dir": "rx", "hex": "f083080600", "len": 5, "note": "LEER  report rate (sub=0) | X8Pro via 8 kHz (0x83)"}
+{"t": 123.1406, "dir": "tx", "hex": "83010008400100", "len": 7, "note": "presencia: X8Pro via 8 kHz (0x83), bateria 0%"}
+{"t": 124.5406, "dir": "tx", "hex": "830806090104bb00000000", "len": 11, "note": "?"}
+{"t": 124.5407, "dir": "rx", "hex": "f083080500", "len": 5, "note": "LEER  iluminacion (sub=0) | X8Pro via 8 kHz (0x83)"}
+{"t": 125.1418, "dir": "tx", "hex": "83010008400164", "len": 7, "note": "presencia: X8Pro via 8 kHz (0x83), bateria 100%"}
+{"t": 127.1424, "dir": "tx", "hex": "83010008400164", "len": 7, "note": "presencia: X8Pro via 8 kHz (0x83), bateria 100%"}
+{"t": 128.4206, "dir": "tx", "hex": "8308050f010003a800ff00010401af0000", "len": 17, "note": "?"}
+{"t": 128.4207, "dir": "rx", "hex": "f083080400", "len": 5, "note": "LEER  dpi (sub=0) | X8Pro via 8 kHz (0x83)"}
+{"t": 129.1427, "dir": "tx", "hex": "83010008400164", "len": 7, "note": "presencia: X8Pro via 8 kHz (0x83), bateria 100%"}
+{"t": 131.1438, "dir": "tx", "hex": "83010008400164", "len": 7, "note": "presencia: X8Pro via 8 kHz (0x83), bateria 100%"}
+{"t": 131.3929, "dir": "tx", "hex": "830804380101013f2000172f3f6f9f8f0000000000000001000001ff000000ff000000ffffff0000ffffff00ffff4000ffffff020fba00000000", "len": 58, "note": "?"}
+{"t": 133.1443, "dir": "tx", "hex": "83010008400164", "len": 7, "note": "presencia: X8Pro via 8 kHz (0x83), bateria 100%"}
+{"t": 135.1463, "dir": "tx", "hex": "83010008400164", "len": 7, "note": "presencia: X8Pro via 8 kHz (0x83), bateria 100%"}
+{"t": 137.1486, "dir": "tx", "hex": "83010008400164", "len": 7, "note": "presencia: X8Pro via 8 kHz (0x83), bateria 100%"}
+{"t": 139.1495, "dir": "tx", "hex": "83010008400164", "len": 7, "note": "presencia: X8Pro via 8 kHz (0x83), bateria 100%"}
+{"t": 141.1517, "dir": "tx", "hex": "83010008400164", "len": 7, "note": "presencia: X8Pro via 8 kHz (0x83), bateria 100%"}
+{"t": 143.1536, "dir": "tx", "hex": "83010008400164", "len": 7, "note": "presencia: X8Pro via 8 kHz (0x83), bateria 100%"}
+{"t": 145.1555, "dir": "tx", "hex": "83010008400164", "len": 7, "note": "presencia: X8Pro via 8 kHz (0x83), bateria 100%"}
+{"t": 147.157, "dir": "tx", "hex": "83010008400164", "len": 7, "note": "presencia: X8Pro via 8 kHz (0x83), bateria 100%"}
+{"t": 149.1588, "dir": "tx", "hex": "83010008400164", "len": 7, "note": "presencia: X8Pro via 8 kHz (0x83), bateria 100%"}
+{"t": 151.161, "dir": "tx", "hex": "83010008400164", "len": 7, "note": "presencia: X8Pro via 8 kHz (0x83), bateria 100%"}
+{"t": 153.1624, "dir": "tx", "hex": "83010008400164", "len": 7, "note": "presencia: X8Pro via 8 kHz (0x83), bateria 100%"}
+{"t": 155.1641, "dir": "tx", "hex": "83010008400164", "len": 7, "note": "presencia: X8Pro via 8 kHz (0x83), bateria 100%"}
+{"t": 157.1646, "dir": "tx", "hex": "83010008400164", "len": 7, "note": "presencia: X8Pro via 8 kHz (0x83), bateria 100%"}
+{"t": 159.1663, "dir": "tx", "hex": "83010008400164", "len": 7, "note": "presencia: X8Pro via 8 kHz (0x83), bateria 100%"}
+{"t": 161.1668, "dir": "tx", "hex": "83010008400164", "len": 7, "note": "presencia: X8Pro via 8 kHz (0x83), bateria 100%"}
+{"t": 163.1676, "dir": "tx", "hex": "83010008400164", "len": 7, "note": "presencia: X8Pro via 8 kHz (0x83), bateria 100%"}
+{"t": 165.1684, "dir": "tx", "hex": "83010008400164", "len": 7, "note": "presencia: X8Pro via 8 kHz (0x83), bateria 100%"}
+{"t": 167.1691, "dir": "tx", "hex": "83010008400164", "len": 7, "note": "presencia: X8Pro via 8 kHz (0x83), bateria 100%"}
+{"t": 169.17, "dir": "tx", "hex": "83010008400164", "len": 7, "note": "presencia: X8Pro via 8 kHz (0x83), bateria 100%"}
+{"t": 171.1707, "dir": "tx", "hex": "83010008400164", "len": 7, "note": "presencia: X8Pro via 8 kHz (0x83), bateria 100%"}
+{"t": 173.1715, "dir": "tx", "hex": "83010008400164", "len": 7, "note": "presencia: X8Pro via 8 kHz (0x83), bateria 100%"}
+{"t": 175.1733, "dir": "tx", "hex": "83010008400200", "len": 7, "note": "presencia: X8Pro via 8 kHz (0x83), bateria 0%"}
+{"t": 177.1737, "dir": "tx", "hex": "83010008400164", "len": 7, "note": "presencia: X8Pro via 8 kHz (0x83), bateria 100%"}
+{"t": 179.1751, "dir": "tx", "hex": "83010008400164", "len": 7, "note": "presencia: X8Pro via 8 kHz (0x83), bateria 100%"}
+{"t": 180.6844, "dir": "tx", "hex": "0305", "len": 2, "note": "version del helper 3.5"}
+{"t": 180.6846, "dir": "tx", "hex": "83010008400164", "len": 7, "note": "presencia: X8Pro via 8 kHz (0x83), bateria 100%"}
+{"t": 181.7391, "dir": "rx", "hex": "f083080b00", "len": 5, "note": "LEER  version de firmware (sub=0) | X8Pro via 8 kHz (0x83)"}
+{"t": 181.7582, "dir": "tx", "hex": "83080b08080083010500", "len": 10, "note": "?"}
+{"t": 181.7591, "dir": "rx", "hex": "f083080b00", "len": 5, "note": "LEER  version de firmware (sub=0) | X8Pro via 8 kHz (0x83)"}
+{"t": 182.6859, "dir": "tx", "hex": "83010008400164", "len": 7, "note": "presencia: X8Pro via 8 kHz (0x83), bateria 100%"}
+{"t": 184.6866, "dir": "tx", "hex": "83010008400164", "len": 7, "note": "presencia: X8Pro via 8 kHz (0x83), bateria 100%"}
+{"t": 184.9241, "dir": "tx", "hex": "83080b08080083010500", "len": 10, "note": "?"}
+{"t": 184.9242, "dir": "rx", "hex": "f083080600", "len": 5, "note": "LEER  report rate (sub=0) | X8Pro via 8 kHz (0x83)"}
+{"t": 186.6874, "dir": "tx", "hex": "83010008400164", "len": 7, "note": "presencia: X8Pro via 8 kHz (0x83), bateria 100%"}
+{"t": 188.0914, "dir": "tx", "hex": "830806090104bb00000000", "len": 11, "note": "?"}
+{"t": 188.0914, "dir": "rx", "hex": "f083080500", "len": 5, "note": "LEER  iluminacion (sub=0) | X8Pro via 8 kHz (0x83)"}
+{"t": 188.6886, "dir": "tx", "hex": "83010008400164", "len": 7, "note": "presencia: X8Pro via 8 kHz (0x83), bateria 100%"}
+{"t": 190.6891, "dir": "tx", "hex": "83010008400100", "len": 7, "note": "presencia: X8Pro via 8 kHz (0x83), bateria 0%"}
+{"t": 191.2636, "dir": "tx", "hex": "8308050f010003a800ff00010401af0000", "len": 17, "note": "?"}
+{"t": 191.2637, "dir": "rx", "hex": "f083080400", "len": 5, "note": "LEER  dpi (sub=0) | X8Pro via 8 kHz (0x83)"}
+{"t": 192.6901, "dir": "tx", "hex": "83010008400200", "len": 7, "note": "presencia: X8Pro via 8 kHz (0x83), bateria 0%"}
+{"t": 194.4316, "dir": "tx", "hex": "830804380101013f2000172f3f6f9f8f0000000000000001000006ff000000ff000000ffffff0000ffffff00ffff4000ffffff020fbf00000000", "len": 58, "note": "?"}
+{"t": 194.6911, "dir": "tx", "hex": "83010008400100", "len": 7, "note": "presencia: X8Pro via 8 kHz (0x83), bateria 0%"}
+{"t": 196.6918, "dir": "tx", "hex": "83010008400164", "len": 7, "note": "presencia: X8Pro via 8 kHz (0x83), bateria 100%"}
+{"t": 198.6925, "dir": "tx", "hex": "83010008400164", "len": 7, "note": "presencia: X8Pro via 8 kHz (0x83), bateria 100%"}
+{"t": 200.6935, "dir": "tx", "hex": "83010008400164", "len": 7, "note": "presencia: X8Pro via 8 kHz (0x83), bateria 100%"}
+{"t": 202.694, "dir": "tx", "hex": "83010008400164", "len": 7, "note": "presencia: X8Pro via 8 kHz (0x83), bateria 100%"}
+{"t": 204.6947, "dir": "tx", "hex": "83010008400164", "len": 7, "note": "presencia: X8Pro via 8 kHz (0x83), bateria 100%"}
+{"t": 206.6958, "dir": "tx", "hex": "83010008400164", "len": 7, "note": "presencia: X8Pro via 8 kHz (0x83), bateria 100%"}
+{"t": 208.6962, "dir": "tx", "hex": "83010008400164", "len": 7, "note": "presencia: X8Pro via 8 kHz (0x83), bateria 100%"}
+{"t": 210.697, "dir": "tx", "hex": "83010008400164", "len": 7, "note": "presencia: X8Pro via 8 kHz (0x83), bateria 100%"}
+{"t": 212.6979, "dir": "tx", "hex": "83010008400164", "len": 7, "note": "presencia: X8Pro via 8 kHz (0x83), bateria 100%"}
+{"t": 214.6986, "dir": "tx", "hex": "83010008400164", "len": 7, "note": "presencia: X8Pro via 8 kHz (0x83), bateria 100%"}
+{"t": 216.6997, "dir": "tx", "hex": "83010008400164", "len": 7, "note": "presencia: X8Pro via 8 kHz (0x83), bateria 100%"}
+{"t": 218.7003, "dir": "tx", "hex": "83010008400164", "len": 7, "note": "presencia: X8Pro via 8 kHz (0x83), bateria 100%"}
+{"t": 220.7014, "dir": "tx", "hex": "83010008400164", "len": 7, "note": "presencia: X8Pro via 8 kHz (0x83), bateria 100%"}
+{"t": 222.7028, "dir": "tx", "hex": "83010008400164", "len": 7, "note": "presencia: X8Pro via 8 kHz (0x83), bateria 100%"}
+{"t": 224.7037, "dir": "tx", "hex": "83010008400164", "len": 7, "note": "presencia: X8Pro via 8 kHz (0x83), bateria 100%"}
+{"t": 226.705, "dir": "tx", "hex": "83010008400164", "len": 7, "note": "presencia: X8Pro via 8 kHz (0x83), bateria 100%"}
+{"t": 228.7062, "dir": "tx", "hex": "83010008400164", "len": 7, "note": "presencia: X8Pro via 8 kHz (0x83), bateria 100%"}
+{"t": 230.707, "dir": "tx", "hex": "83010008400164", "len": 7, "note": "presencia: X8Pro via 8 kHz (0x83), bateria 100%"}
+{"t": 232.7077, "dir": "tx", "hex": "83010008400164", "len": 7, "note": "presencia: X8Pro via 8 kHz (0x83), bateria 100%"}
+{"t": 234.7085, "dir": "tx", "hex": "83010008400164", "len": 7, "note": "presencia: X8Pro via 8 kHz (0x83), bateria 100%"}
+{"t": 236.7089, "dir": "tx", "hex": "83010008400164", "len": 7, "note": "presencia: X8Pro via 8 kHz (0x83), bateria 100%"}
+{"t": 238.7097, "dir": "tx", "hex": "83010008400164", "len": 7, "note": "presencia: X8Pro via 8 kHz (0x83), bateria 100%"}
+{"t": 240.7104, "dir": "tx", "hex": "83010008400164", "len": 7, "note": "presencia: X8Pro via 8 kHz (0x83), bateria 100%"}
+{"t": 242.7128, "dir": "tx", "hex": "83010008400164", "len": 7, "note": "presencia: X8Pro via 8 kHz (0x83), bateria 100%"}
+{"t": 244.7131, "dir": "tx", "hex": "83010008400164", "len": 7, "note": "presencia: X8Pro via 8 kHz (0x83), bateria 100%"}
+{"t": 246.7136, "dir": "tx", "hex": "83010008400164", "len": 7, "note": "presencia: X8Pro via 8 kHz (0x83), bateria 100%"}
+{"t": 248.714, "dir": "tx", "hex": "83010008400164", "len": 7, "note": "presencia: X8Pro via 8 kHz (0x83), bateria 100%"}
+{"t": 250.7146, "dir": "tx", "hex": "83010008400164", "len": 7, "note": "presencia: X8Pro via 8 kHz (0x83), bateria 100%"}
+{"t": 252.715, "dir": "tx", "hex": "83010008400164", "len": 7, "note": "presencia: X8Pro via 8 kHz (0x83), bateria 100%"}
+{"t": 254.7165, "dir": "tx", "hex": "83010008400164", "len": 7, "note": "presencia: X8Pro via 8 kHz (0x83), bateria 100%"}
+{"t": 256.717, "dir": "tx", "hex": "83010008400164", "len": 7, "note": "presencia: X8Pro via 8 kHz (0x83), bateria 100%"}
+{"t": 258.7177, "dir": "tx", "hex": "83010008400164", "len": 7, "note": "presencia: X8Pro via 8 kHz (0x83), bateria 100%"}
+{"t": 260.7184, "dir": "tx", "hex": "83010008400164", "len": 7, "note": "presencia: X8Pro via 8 kHz (0x83), bateria 100%"}
+{"t": 262.7205, "dir": "tx", "hex": "83010008400164", "len": 7, "note": "presencia: X8Pro via 8 kHz (0x83), bateria 100%"}
+{"t": 264.7212, "dir": "tx", "hex": "83010008400164", "len": 7, "note": "presencia: X8Pro via 8 kHz (0x83), bateria 100%"}
+{"t": 266.7222, "dir": "tx", "hex": "83010008400164", "len": 7, "note": "presencia: X8Pro via 8 kHz (0x83), bateria 100%"}
+{"t": 268.7226, "dir": "tx", "hex": "83010008400164", "len": 7, "note": "presencia: X8Pro via 8 kHz (0x83), bateria 100%"}
+{"t": 270.7232, "dir": "tx", "hex": "83010008400164", "len": 7, "note": "presencia: X8Pro via 8 kHz (0x83), bateria 100%"}
+{"t": 272.7236, "dir": "tx", "hex": "83010008400164", "len": 7, "note": "presencia: X8Pro via 8 kHz (0x83), bateria 100%"}
+{"t": 274.7242, "dir": "tx", "hex": "83010008400164", "len": 7, "note": "presencia: X8Pro via 8 kHz (0x83), bateria 100%"}
+{"t": 276.7251, "dir": "tx", "hex": "83010008400164", "len": 7, "note": "presencia: X8Pro via 8 kHz (0x83), bateria 100%"}
+{"t": 278.7262, "dir": "tx", "hex": "83010008400164", "len": 7, "note": "presencia: X8Pro via 8 kHz (0x83), bateria 100%"}
+{"t": 280.7266, "dir": "tx", "hex": "83010008400164", "len": 7, "note": "presencia: X8Pro via 8 kHz (0x83), bateria 100%"}
+{"t": 282.7271, "dir": "tx", "hex": "83010008400164", "len": 7, "note": "presencia: X8Pro via 8 kHz (0x83), bateria 100%"}
+{"t": 284.7274, "dir": "tx", "hex": "83010008400164", "len": 7, "note": "presencia: X8Pro via 8 kHz (0x83), bateria 100%"}
+{"t": 286.7281, "dir": "tx", "hex": "83010008400164", "len": 7, "note": "presencia: X8Pro via 8 kHz (0x83), bateria 100%"}
+{"t": 288.7285, "dir": "tx", "hex": "83010008400164", "len": 7, "note": "presencia: X8Pro via 8 kHz (0x83), bateria 100%"}
+{"t": 290.729, "dir": "tx", "hex": "83010008400164", "len": 7, "note": "presencia: X8Pro via 8 kHz (0x83), bateria 100%"}
+{"t": 292.7294, "dir": "tx", "hex": "83010008400164", "len": 7, "note": "presencia: X8Pro via 8 kHz (0x83), bateria 100%"}
+{"t": 294.7301, "dir": "tx", "hex": "83010008400164", "len": 7, "note": "presencia: X8Pro via 8 kHz (0x83), bateria 100%"}
+{"t": 296.7305, "dir": "tx", "hex": "83010008400164", "len": 7, "note": "presencia: X8Pro via 8 kHz (0x83), bateria 100%"}
+{"t": 298.7318, "dir": "tx", "hex": "83010008400164", "len": 7, "note": "presencia: X8Pro via 8 kHz (0x83), bateria 100%"}
+{"t": 300.7326, "dir": "tx", "hex": "83010008400164", "len": 7, "note": "presencia: X8Pro via 8 kHz (0x83), bateria 100%"}
+{"t": 302.7338, "dir": "tx", "hex": "83010008400164", "len": 7, "note": "presencia: X8Pro via 8 kHz (0x83), bateria 100%"}
+{"t": 304.7342, "dir": "tx", "hex": "83010008400164", "len": 7, "note": "presencia: X8Pro via 8 kHz (0x83), bateria 100%"}
+{"t": 306.7349, "dir": "tx", "hex": "83010008400164", "len": 7, "note": "presencia: X8Pro via 8 kHz (0x83), bateria 100%"}
+{"t": 308.7357, "dir": "tx", "hex": "83010008400164", "len": 7, "note": "presencia: X8Pro via 8 kHz (0x83), bateria 100%"}
+{"t": 310.7367, "dir": "tx", "hex": "83010008400164", "len": 7, "note": "presencia: X8Pro via 8 kHz (0x83), bateria 100%"}
+{"t": 312.7375, "dir": "tx", "hex": "83010008400164", "len": 7, "note": "presencia: X8Pro via 8 kHz (0x83), bateria 100%"}
+{"t": 314.7386, "dir": "tx", "hex": "83010008400164", "len": 7, "note": "presencia: X8Pro via 8 kHz (0x83), bateria 100%"}
+{"t": 316.7399, "dir": "tx", "hex": "83010008400164", "len": 7, "note": "presencia: X8Pro via 8 kHz (0x83), bateria 100%"}
+{"t": 318.7408, "dir": "tx", "hex": "83010008400164", "len": 7, "note": "presencia: X8Pro via 8 kHz (0x83), bateria 100%"}
+{"t": 320.7429, "dir": "tx", "hex": "83010008400164", "len": 7, "note": "presencia: X8Pro via 8 kHz (0x83), bateria 100%"}
+{"t": 322.7434, "dir": "tx", "hex": "83010008400164", "len": 7, "note": "presencia: X8Pro via 8 kHz (0x83), bateria 100%"}
+{"t": 324.7441, "dir": "tx", "hex": "83010008400164", "len": 7, "note": "presencia: X8Pro via 8 kHz (0x83), bateria 100%"}
+{"t": 326.7449, "dir": "tx", "hex": "83010008400164", "len": 7, "note": "presencia: X8Pro via 8 kHz (0x83), bateria 100%"}
+{"t": 328.7457, "dir": "tx", "hex": "83010008400164", "len": 7, "note": "presencia: X8Pro via 8 kHz (0x83), bateria 100%"}
+{"t": 330.7463, "dir": "tx", "hex": "83010008400164", "len": 7, "note": "presencia: X8Pro via 8 kHz (0x83), bateria 100%"}
+{"t": 332.7473, "dir": "tx", "hex": "83010008400164", "len": 7, "note": "presencia: X8Pro via 8 kHz (0x83), bateria 100%"}
+{"t": 334.748, "dir": "tx", "hex": "83010008400164", "len": 7, "note": "presencia: X8Pro via 8 kHz (0x83), bateria 100%"}
+{"t": 336.7488, "dir": "tx", "hex": "83010008400164", "len": 7, "note": "presencia: X8Pro via 8 kHz (0x83), bateria 100%"}
+{"t": 338.7498, "dir": "tx", "hex": "83010008400164", "len": 7, "note": "presencia: X8Pro via 8 kHz (0x83), bateria 100%"}
+{"t": 340.7509, "dir": "tx", "hex": "83010008400164", "len": 7, "note": "presencia: X8Pro via 8 kHz (0x83), bateria 100%"}
+{"t": 342.7512, "dir": "tx", "hex": "83010008400164", "len": 7, "note": "presencia: X8Pro via 8 kHz (0x83), bateria 100%"}
+{"t": 344.7521, "dir": "tx", "hex": "83010008400164", "len": 7, "note": "presencia: X8Pro via 8 kHz (0x83), bateria 100%"}
+{"t": 346.7528, "dir": "tx", "hex": "83010008400164", "len": 7, "note": "presencia: X8Pro via 8 kHz (0x83), bateria 100%"}
+{"t": 348.7535, "dir": "tx", "hex": "83010008400164", "len": 7, "note": "presencia: X8Pro via 8 kHz (0x83), bateria 100%"}
+{"t": 350.7545, "dir": "tx", "hex": "83010008400164", "len": 7, "note": "presencia: X8Pro via 8 kHz (0x83), bateria 100%"}
+{"t": 352.7553, "dir": "tx", "hex": "83010008400164", "len": 7, "note": "presencia: X8Pro via 8 kHz (0x83), bateria 100%"}
+{"t": 354.7559, "dir": "tx", "hex": "83010008400164", "len": 7, "note": "presencia: X8Pro via 8 kHz (0x83), bateria 100%"}
+{"t": 356.7567, "dir": "tx", "hex": "83010008400164", "len": 7, "note": "presencia: X8Pro via 8 kHz (0x83), bateria 100%"}
+{"t": 358.7574, "dir": "tx", "hex": "83010008400164", "len": 7, "note": "presencia: X8Pro via 8 kHz (0x83), bateria 100%"}
+{"t": 360.7578, "dir": "tx", "hex": "83010008400164", "len": 7, "note": "presencia: X8Pro via 8 kHz (0x83), bateria 100%"}
+{"t": 362.7587, "dir": "tx", "hex": "83010008400200", "len": 7, "note": "presencia: X8Pro via 8 kHz (0x83), bateria 0%"}
+{"t": 364.7597, "dir": "tx", "hex": "83010008400164", "len": 7, "note": "presencia: X8Pro via 8 kHz (0x83), bateria 100%"}
+{"t": 366.7609, "dir": "tx", "hex": "83010008400300", "len": 7, "note": "presencia: X8Pro via 8 kHz (0x83), bateria 0%"}
+{"t": 368.7621, "dir": "tx", "hex": "83010008400164", "len": 7, "note": "presencia: X8Pro via 8 kHz (0x83), bateria 100%"}
+{"t": 370.763, "dir": "tx", "hex": "83010008400164", "len": 7, "note": "presencia: X8Pro via 8 kHz (0x83), bateria 100%"}
+{"t": 372.7633, "dir": "tx", "hex": "83010008400164", "len": 7, "note": "presencia: X8Pro via 8 kHz (0x83), bateria 100%"}
+{"t": 374.7643, "dir": "tx", "hex": "83010008400164", "len": 7, "note": "presencia: X8Pro via 8 kHz (0x83), bateria 100%"}
+{"t": 376.7649, "dir": "tx", "hex": "83010008400164", "len": 7, "note": "presencia: X8Pro via 8 kHz (0x83), bateria 100%"}
+{"t": 378.7655, "dir": "tx", "hex": "83010008400164", "len": 7, "note": "presencia: X8Pro via 8 kHz (0x83), bateria 100%"}
+{"t": 380.7666, "dir": "tx", "hex": "83010008400164", "len": 7, "note": "presencia: X8Pro via 8 kHz (0x83), bateria 100%"}
+{"t": 382.7669, "dir": "tx", "hex": "83010008400164", "len": 7, "note": "presencia: X8Pro via 8 kHz (0x83), bateria 100%"}
+{"t": 384.7679, "dir": "tx", "hex": "83010008400164", "len": 7, "note": "presencia: X8Pro via 8 kHz (0x83), bateria 100%"}
+{"t": 386.7688, "dir": "tx", "hex": "83010008400164", "len": 7, "note": "presencia: X8Pro via 8 kHz (0x83), bateria 100%"}
+{"t": 388.7694, "dir": "tx", "hex": "83010008400164", "len": 7, "note": "presencia: X8Pro via 8 kHz (0x83), bateria 100%"}
+{"t": 390.7704, "dir": "tx", "hex": "83010008400164", "len": 7, "note": "presencia: X8Pro via 8 kHz (0x83), bateria 100%"}
+{"t": 392.7708, "dir": "tx", "hex": "83010008400164", "len": 7, "note": "presencia: X8Pro via 8 kHz (0x83), bateria 100%"}
+{"t": 394.7715, "dir": "tx", "hex": "83010008400164", "len": 7, "note": "presencia: X8Pro via 8 kHz (0x83), bateria 100%"}
+{"t": 396.7725, "dir": "tx", "hex": "83010008400164", "len": 7, "note": "presencia: X8Pro via 8 kHz (0x83), bateria 100%"}
+{"t": 398.7731, "dir": "tx", "hex": "83010008400164", "len": 7, "note": "presencia: X8Pro via 8 kHz (0x83), bateria 100%"}
+{"t": 400.7744, "dir": "tx", "hex": "83010008400164", "len": 7, "note": "presencia: X8Pro via 8 kHz (0x83), bateria 100%"}
+{"t": 402.7756, "dir": "tx", "hex": "83010008400164", "len": 7, "note": "presencia: X8Pro via 8 kHz (0x83), bateria 100%"}
+{"t": 404.7765, "dir": "tx", "hex": "83010008400164", "len": 7, "note": "presencia: X8Pro via 8 kHz (0x83), bateria 100%"}
+{"t": 406.777, "dir": "tx", "hex": "83010008400164", "len": 7, "note": "presencia: X8Pro via 8 kHz (0x83), bateria 100%"}
+{"t": 408.778, "dir": "tx", "hex": "83010008400164", "len": 7, "note": "presencia: X8Pro via 8 kHz (0x83), bateria 100%"}
+{"t": 410.7791, "dir": "tx", "hex": "83010008400164", "len": 7, "note": "presencia: X8Pro via 8 kHz (0x83), bateria 100%"}
+{"t": 412.7797, "dir": "tx", "hex": "83010008400164", "len": 7, "note": "presencia: X8Pro via 8 kHz (0x83), bateria 100%"}
+{"t": 414.7805, "dir": "tx", "hex": "83010008400164", "len": 7, "note": "presencia: X8Pro via 8 kHz (0x83), bateria 100%"}
+{"t": 416.7818, "dir": "tx", "hex": "83010008400164", "len": 7, "note": "presencia: X8Pro via 8 kHz (0x83), bateria 100%"}
+{"t": 418.7831, "dir": "tx", "hex": "83010008400164", "len": 7, "note": "presencia: X8Pro via 8 kHz (0x83), bateria 100%"}
+{"t": 420.784, "dir": "tx", "hex": "83010008400164", "len": 7, "note": "presencia: X8Pro via 8 kHz (0x83), bateria 100%"}
+{"t": 422.7846, "dir": "tx", "hex": "83010008400164", "len": 7, "note": "presencia: X8Pro via 8 kHz (0x83), bateria 100%"}
+{"t": 424.7862, "dir": "tx", "hex": "83010008400164", "len": 7, "note": "presencia: X8Pro via 8 kHz (0x83), bateria 100%"}
+{"t": 426.7881, "dir": "tx", "hex": "83010008400164", "len": 7, "note": "presencia: X8Pro via 8 kHz (0x83), bateria 100%"}
+{"t": 428.79, "dir": "tx", "hex": "83010008400164", "len": 7, "note": "presencia: X8Pro via 8 kHz (0x83), bateria 100%"}
+{"t": 430.7918, "dir": "tx", "hex": "83010008400164", "len": 7, "note": "presencia: X8Pro via 8 kHz (0x83), bateria 100%"}
+{"t": 432.7936, "dir": "tx", "hex": "83010008400164", "len": 7, "note": "presencia: X8Pro via 8 kHz (0x83), bateria 100%"}
+{"t": 434.7952, "dir": "tx", "hex": "83010008400164", "len": 7, "note": "presencia: X8Pro via 8 kHz (0x83), bateria 100%"}
+{"t": 436.797, "dir": "tx", "hex": "83010008400164", "len": 7, "note": "presencia: X8Pro via 8 kHz (0x83), bateria 100%"}
+{"t": 438.7989, "dir": "tx", "hex": "83010008400164", "len": 7, "note": "presencia: X8Pro via 8 kHz (0x83), bateria 100%"}
+{"t": 440.8001, "dir": "tx", "hex": "83010008400164", "len": 7, "note": "presencia: X8Pro via 8 kHz (0x83), bateria 100%"}
+{"t": 442.8006, "dir": "tx", "hex": "83010008400164", "len": 7, "note": "presencia: X8Pro via 8 kHz (0x83), bateria 100%"}
+{"t": 444.8011, "dir": "tx", "hex": "83010008400164", "len": 7, "note": "presencia: X8Pro via 8 kHz (0x83), bateria 100%"}
+{"t": 446.8021, "dir": "tx", "hex": "83010008400164", "len": 7, "note": "presencia: X8Pro via 8 kHz (0x83), bateria 100%"}
+{"t": 448.8029, "dir": "tx", "hex": "83010008400164", "len": 7, "note": "presencia: X8Pro via 8 kHz (0x83), bateria 100%"}
+{"t": 450.8038, "dir": "tx", "hex": "83010008400164", "len": 7, "note": "presencia: X8Pro via 8 kHz (0x83), bateria 100%"}
+{"t": 452.8045, "dir": "tx", "hex": "83010008400164", "len": 7, "note": "presencia: X8Pro via 8 kHz (0x83), bateria 100%"}
+{"t": 454.805, "dir": "tx", "hex": "83010008400164", "len": 7, "note": "presencia: X8Pro via 8 kHz (0x83), bateria 100%"}
+{"t": 456.8061, "dir": "tx", "hex": "83010008400164", "len": 7, "note": "presencia: X8Pro via 8 kHz (0x83), bateria 100%"}
+{"t": 45.758, "dir": "tx", "hex": "0305", "len": 2, "note": "version del helper 3.5"}
+{"t": 45.7582, "dir": "tx", "hex": "83010008400264", "len": 7, "note": "presencia: X8Pro via 8 kHz (0x83), bateria 100%"}
+{"t": 46.8133, "dir": "rx", "hex": "f083080b00", "len": 5, "note": "LEER  version de firmware (sub=0) | X8Pro via 8 kHz (0x83)"}
+{"t": 46.8254, "dir": "tx", "hex": "83080b08080083010500", "len": 10, "note": "?"}
+{"t": 46.8305, "dir": "rx", "hex": "f083080b00", "len": 5, "note": "LEER  version de firmware (sub=0) | X8Pro via 8 kHz (0x83)"}
+{"t": 47.7596, "dir": "tx", "hex": "83010008400264", "len": 7, "note": "presencia: X8Pro via 8 kHz (0x83), bateria 100%"}
+{"t": 48.6434, "dir": "tx", "hex": "830108400164", "len": 6, "note": "?"}
+{"t": 49.7609, "dir": "tx", "hex": "83010008400164", "len": 7, "note": "presencia: X8Pro via 8 kHz (0x83), bateria 100%"}
+{"t": 50.6432, "dir": "tx", "hex": "830108400164", "len": 6, "note": "?"}
+{"t": 51.3924, "dir": "tx", "hex": "83080b08080083010500", "len": 10, "note": "?"}
+{"t": 51.3925, "dir": "rx", "hex": "f083080600", "len": 5, "note": "LEER  report rate (sub=0) | X8Pro via 8 kHz (0x83)"}
+{"t": 51.4014, "dir": "tx", "hex": "830806090104bb00000000", "len": 11, "note": "?"}
+{"t": 51.4015, "dir": "rx", "hex": "f083080500", "len": 5, "note": "LEER  iluminacion (sub=0) | X8Pro via 8 kHz (0x83)"}
+{"t": 51.7628, "dir": "tx", "hex": "83010008400164", "len": 7, "note": "presencia: X8Pro via 8 kHz (0x83), bateria 100%"}
+{"t": 53.3961, "dir": "tx", "hex": "830108400164", "len": 6, "note": "?"}
+{"t": 53.7635, "dir": "tx", "hex": "83010008400164", "len": 7, "note": "presencia: X8Pro via 8 kHz (0x83), bateria 100%"}
+{"t": 54.5697, "dir": "tx", "hex": "8308050f010003a800ff00010401af0000", "len": 17, "note": "?"}
+{"t": 54.5698, "dir": "rx", "hex": "f083080400", "len": 5, "note": "LEER  dpi (sub=0) | X8Pro via 8 kHz (0x83)"}
+{"t": 55.7713, "dir": "tx", "hex": "0305", "len": 2, "note": "version del helper 3.5"}
+{"t": 55.7714, "dir": "tx", "hex": "83010008400164", "len": 7, "note": "presencia: X8Pro via 8 kHz (0x83), bateria 100%"}
+{"t": 56.3958, "dir": "tx", "hex": "830108400164", "len": 6, "note": "?"}
+{"t": 56.3959, "dir": "tx", "hex": "830108400164", "len": 6, "note": "?"}
+{"t": 56.8186, "dir": "rx", "hex": "f083080b00", "len": 5, "note": "LEER  version de firmware (sub=0) | X8Pro via 8 kHz (0x83)"}
+{"t": 56.824, "dir": "tx", "hex": "83080b08080083010500", "len": 10, "note": "?"}
+{"t": 56.8247, "dir": "rx", "hex": "f083080b00", "len": 5, "note": "LEER  version de firmware (sub=0) | X8Pro via 8 kHz (0x83)"}
+{"t": 59.3502, "dir": "tx", "hex": "830108100200", "len": 6, "note": "?"}
+{"t": 59.6416, "dir": "tx", "hex": "830108400164", "len": 6, "note": "?"}
+{"t": 59.9949, "dir": "tx", "hex": "0305", "len": 2, "note": "version del helper 3.5"}
+{"t": 59.9951, "dir": "tx", "hex": "83010008400164", "len": 7, "note": "presencia: X8Pro via 8 kHz (0x83), bateria 100%"}
+{"t": 60.2258, "dir": "tx", "hex": "830108100300", "len": 6, "note": "?"}
+{"t": 60.2259, "dir": "tx", "hex": "830108100300", "len": 6, "note": "?"}
+{"t": 61.6393, "dir": "tx", "hex": "830108400164", "len": 6, "note": "?"}
+{"t": 61.6394, "dir": "tx", "hex": "830108400164", "len": 6, "note": "?"}
+{"t": 61.9957, "dir": "tx", "hex": "83010008400164", "len": 7, "note": "presencia: X8Pro via 8 kHz (0x83), bateria 100%"}
+{"t": 63.639, "dir": "tx", "hex": "830108400164", "len": 6, "note": "?"}
+{"t": 63.6392, "dir": "tx", "hex": "830108400164", "len": 6, "note": "?"}
+{"t": 63.9965, "dir": "tx", "hex": "83010008400164", "len": 7, "note": "presencia: X8Pro via 8 kHz (0x83), bateria 100%"}
+{"t": 65.6388, "dir": "tx", "hex": "830108400164", "len": 6, "note": "?"}
+{"t": 65.6391, "dir": "tx", "hex": "830108400164", "len": 6, "note": "?"}
+{"t": 65.9974, "dir": "tx", "hex": "83010008400164", "len": 7, "note": "presencia: X8Pro via 8 kHz (0x83), bateria 100%"}
+{"t": 67.5129, "dir": "tx", "hex": "0305", "len": 2, "note": "version del helper 3.5"}
+{"t": 67.5131, "dir": "tx", "hex": "83010008400164", "len": 7, "note": "presencia: X8Pro via 8 kHz (0x83), bateria 100%"}
+{"t": 67.6386, "dir": "tx", "hex": "830108400164", "len": 6, "note": "?"}
+{"t": 67.6389, "dir": "tx", "hex": "830108400164", "len": 6, "note": "?"}
+{"t": 68.5442, "dir": "rx", "hex": "f083080b00", "len": 5, "note": "LEER  version de firmware (sub=0) | X8Pro via 8 kHz (0x83)"}
+{"t": 68.5548, "dir": "tx", "hex": "83080b08080083010500", "len": 10, "note": "?"}
+{"t": 68.5556, "dir": "rx", "hex": "f083080b00", "len": 5, "note": "LEER  version de firmware (sub=0) | X8Pro via 8 kHz (0x83)"}
+{"t": 69.5139, "dir": "tx", "hex": "83010008400164", "len": 7, "note": "presencia: X8Pro via 8 kHz (0x83), bateria 100%"}
+{"t": 70.391, "dir": "tx", "hex": "830108400164", "len": 6, "note": "?"}
+{"t": 70.3912, "dir": "tx", "hex": "830108400164", "len": 6, "note": "?"}
+{"t": 71.5146, "dir": "tx", "hex": "83010008400164", "len": 7, "note": "presencia: X8Pro via 8 kHz (0x83), bateria 100%"}
+{"t": 72.3907, "dir": "tx", "hex": "830108400164", "len": 6, "note": "?"}
+{"t": 72.3909, "dir": "tx", "hex": "830108400164", "len": 6, "note": "?"}
+{"t": 72.4209, "dir": "tx", "hex": "83080b08080083010500", "len": 10, "note": "?"}
+{"t": 72.421, "dir": "rx", "hex": "f083080600", "len": 5, "note": "LEER  report rate (sub=0) | X8Pro via 8 kHz (0x83)"}
+{"t": 73.1397, "dir": "tx", "hex": "830806090104bb00000000", "len": 11, "note": "?"}
+{"t": 73.1398, "dir": "rx", "hex": "f083080500", "len": 5, "note": "LEER  iluminacion (sub=0) | X8Pro via 8 kHz (0x83)"}
+{"t": 73.1908, "dir": "tx", "hex": "830108100400", "len": 6, "note": "?"}
+{"t": 73.1909, "dir": "tx", "hex": "830108100400", "len": 6, "note": "?"}
+{"t": 73.5153, "dir": "tx", "hex": "83010008400164", "len": 7, "note": "presencia: X8Pro via 8 kHz (0x83), bateria 100%"}
+{"t": 73.8611, "dir": "tx", "hex": "8308050f010003a800ff00010401af0000", "len": 17, "note": "?"}
+{"t": 73.8612, "dir": "rx", "hex": "f083080400", "len": 5, "note": "LEER  dpi (sub=0) | X8Pro via 8 kHz (0x83)"}
+{"t": 75.5165, "dir": "tx", "hex": "83010008400164", "len": 7, "note": "presencia: X8Pro via 8 kHz (0x83), bateria 100%"}
+{"t": 75.6464, "dir": "tx", "hex": "830108400164", "len": 6, "note": "?"}
+{"t": 75.6466, "dir": "tx", "hex": "830108400164", "len": 6, "note": "?"}
+{"t": 76.2028, "dir": "tx", "hex": "830108100500", "len": 6, "note": "?"}
+{"t": 76.2031, "dir": "tx", "hex": "830108100500", "len": 6, "note": "?"}
+{"t": 76.8377, "dir": "tx", "hex": "830804380101013f2000172f3f6f9f8f0000000000000001000005ff000000ff000000ffffff0000ffffff00ffff4000ffffff020fbe00000000", "len": 58, "note": "?"}
+{"t": 77.5171, "dir": "tx", "hex": "83010008400164", "len": 7, "note": "presencia: X8Pro via 8 kHz (0x83), bateria 100%"}
+{"t": 78.6447, "dir": "tx", "hex": "830108400164", "len": 6, "note": "?"}
+{"t": 78.6449, "dir": "tx", "hex": "830108400164", "len": 6, "note": "?"}
+{"t": 79.5183, "dir": "tx", "hex": "83010008400164", "len": 7, "note": "presencia: X8Pro via 8 kHz (0x83), bateria 100%"}
+{"t": 80.6445, "dir": "tx", "hex": "830108400164", "len": 6, "note": "?"}
+{"t": 80.6448, "dir": "tx", "hex": "830108400164", "len": 6, "note": "?"}
+{"t": 81.5193, "dir": "tx", "hex": "83010008400164", "len": 7, "note": "presencia: X8Pro via 8 kHz (0x83), bateria 100%"}
+{"t": 82.2741, "dir": "tx", "hex": "830108100600", "len": 6, "note": "?"}
+{"t": 82.2742, "dir": "tx", "hex": "830108100600", "len": 6, "note": "?"}
+{"t": 82.6427, "dir": "tx", "hex": "830108400164", "len": 6, "note": "?"}
+{"t": 82.6429, "dir": "tx", "hex": "830108400164", "len": 6, "note": "?"}
+{"t": 83.5203, "dir": "tx", "hex": "83010008400164", "len": 7, "note": "presencia: X8Pro via 8 kHz (0x83), bateria 100%"}
+{"t": 84.2552, "dir": "tx", "hex": "830108100100", "len": 6, "note": "?"}
+{"t": 84.2554, "dir": "tx", "hex": "830108100100", "len": 6, "note": "?"}
+{"t": 84.6402, "dir": "tx", "hex": "830108400164", "len": 6, "note": "?"}
+{"t": 84.6404, "dir": "tx", "hex": "830108400164", "len": 6, "note": "?"}
+{"t": 84.78, "dir": "tx", "hex": "830108100200", "len": 6, "note": "?"}
+{"t": 84.7801, "dir": "tx", "hex": "830108100200", "len": 6, "note": "?"}
+{"t": 85.0708, "dir": "tx", "hex": "830108100300", "len": 6, "note": "?"}
+{"t": 85.0709, "dir": "tx", "hex": "830108100300", "len": 6, "note": "?"}
+{"t": 85.2775, "dir": "tx", "hex": "830108100400", "len": 6, "note": "?"}
+{"t": 85.2776, "dir": "tx", "hex": "830108100400", "len": 6, "note": "?"}
+{"t": 85.4498, "dir": "tx", "hex": "830108100500", "len": 6, "note": "?"}
+{"t": 85.4499, "dir": "tx", "hex": "830108100500", "len": 6, "note": "?"}
+{"t": 85.5223, "dir": "tx", "hex": "83010008400164", "len": 7, "note": "presencia: X8Pro via 8 kHz (0x83), bateria 100%"}
+{"t": 85.7187, "dir": "tx", "hex": "830108100600", "len": 6, "note": "?"}
+{"t": 85.7189, "dir": "tx", "hex": "830108100600", "len": 6, "note": "?"}
+{"t": 86.0692, "dir": "tx", "hex": "830108100100", "len": 6, "note": "?"}
+{"t": 86.0694, "dir": "tx", "hex": "830108100100", "len": 6, "note": "?"}
+{"t": 86.6371, "dir": "tx", "hex": "830108400164", "len": 6, "note": "?"}
+{"t": 86.6372, "dir": "tx", "hex": "830108400164", "len": 6, "note": "?"}
+{"t": 87.5244, "dir": "tx", "hex": "83010008400164", "len": 7, "note": "presencia: X8Pro via 8 kHz (0x83), bateria 100%"}
+{"t": 88.6368, "dir": "tx", "hex": "830108400164", "len": 6, "note": "?"}
+{"t": 88.6369, "dir": "tx", "hex": "830108400164", "len": 6, "note": "?"}
+{"t": 89.5253, "dir": "tx", "hex": "83010008400164", "len": 7, "note": "presencia: X8Pro via 8 kHz (0x83), bateria 100%"}
+{"t": 90.6466, "dir": "tx", "hex": "830108400164", "len": 6, "note": "?"}
+{"t": 90.6467, "dir": "tx", "hex": "830108400164", "len": 6, "note": "?"}
+{"t": 91.5261, "dir": "tx", "hex": "83010008400164", "len": 7, "note": "presencia: X8Pro via 8 kHz (0x83), bateria 100%"}
+{"t": 92.6466, "dir": "tx", "hex": "830108400164", "len": 6, "note": "?"}
+{"t": 92.6468, "dir": "tx", "hex": "830108400164", "len": 6, "note": "?"}
+{"t": 93.5272, "dir": "tx", "hex": "83010008400164", "len": 7, "note": "presencia: X8Pro via 8 kHz (0x83), bateria 100%"}
+{"t": 94.6464, "dir": "tx", "hex": "830108400164", "len": 6, "note": "?"}
+{"t": 94.6465, "dir": "tx", "hex": "830108400164", "len": 6, "note": "?"}
+{"t": 95.5279, "dir": "tx", "hex": "83010008400164", "len": 7, "note": "presencia: X8Pro via 8 kHz (0x83), bateria 100%"}
+{"t": 96.6461, "dir": "tx", "hex": "830108400164", "len": 6, "note": "?"}
+{"t": 96.6462, "dir": "tx", "hex": "830108400164", "len": 6, "note": "?"}
+{"t": 97.5286, "dir": "tx", "hex": "83010008400164", "len": 7, "note": "presencia: X8Pro via 8 kHz (0x83), bateria 100%"}
+{"t": 98.6459, "dir": "tx", "hex": "830108400164", "len": 6, "note": "?"}
+{"t": 98.6461, "dir": "tx", "hex": "830108400164", "len": 6, "note": "?"}
+{"t": 99.5294, "dir": "tx", "hex": "83010008400164", "len": 7, "note": "presencia: X8Pro via 8 kHz (0x83), bateria 100%"}
+{"t": 100.6455, "dir": "tx", "hex": "830108400164", "len": 6, "note": "?"}
+{"t": 100.6456, "dir": "tx", "hex": "830108400164", "len": 6, "note": "?"}
+{"t": 100.9817, "dir": "rx", "hex": "8308060901778800000000000000000000", "len": 17, "note": "ESCRIBIR macro (sub=1) | X8Pro via 8 kHz (0x83) payload=15B"}
+{"t": 100.982, "dir": "tx", "hex": "8308500100", "len": 5, "note": "ack error (la pagina reintenta)"}
+{"t": 101.5304, "dir": "tx", "hex": "83010008400164", "len": 7, "note": "presencia: X8Pro via 8 kHz (0x83), bateria 100%"}
+{"t": 102.6453, "dir": "tx", "hex": "830108400164", "len": 6, "note": "?"}
+{"t": 102.6455, "dir": "tx", "hex": "830108400164", "len": 6, "note": "?"}
+{"t": 102.8332, "dir": "rx", "hex": "830806090144bb00000000000000000000", "len": 17, "note": "ESCRIBIR macro (sub=1) | X8Pro via 8 kHz (0x83) payload=15B"}
+{"t": 102.8334, "dir": "tx", "hex": "8308500100", "len": 5, "note": "ack error (la pagina reintenta)"}
+{"t": 103.5327, "dir": "tx", "hex": "83010008400164", "len": 7, "note": "presencia: X8Pro via 8 kHz (0x83), bateria 100%"}
+{"t": 104.6451, "dir": "tx", "hex": "830108400164", "len": 6, "note": "?"}
+{"t": 104.6453, "dir": "tx", "hex": "830108400164", "len": 6, "note": "?"}
+{"t": 105.5336, "dir": "tx", "hex": "83010008400164", "len": 7, "note": "presencia: X8Pro via 8 kHz (0x83), bateria 100%"}
+{"t": 105.9208, "dir": "rx", "hex": "830804380100013f00001327355e87e70000000000000001000004ff000000ff000000ffffff0000ffffff00ffff4000ffffff020fb50000000000000000", "len": 62, "note": "ESCRIBIR cmd 56 (sub=1) | X8Pro via 8 kHz (0x83) payload=60B"}
+{"t": 105.9211, "dir": "tx", "hex": "8308500100", "len": 5, "note": "ack error (la pagina reintenta)"}
+{"t": 106.6451, "dir": "tx", "hex": "830108400164", "len": 6, "note": "?"}
+{"t": 106.6452, "dir": "tx", "hex": "830108400164", "len": 6, "note": "?"}
+{"t": 107.5349, "dir": "tx", "hex": "83010008400164", "len": 7, "note": "presencia: X8Pro via 8 kHz (0x83), bateria 100%"}
+{"t": 108.1226, "dir": "rx", "hex": "830804380100013f00001327355e87e70000000000000001000001ff000000ff000000ffffff0000ffffff00ffff4000ffffff020fb20000000000000000", "len": 62, "note": "ESCRIBIR cmd 56 (sub=1) | X8Pro via 8 kHz (0x83) payload=60B"}
+{"t": 108.1228, "dir": "tx", "hex": "8308500100", "len": 5, "note": "ack error (la pagina reintenta)"}
+{"t": 108.6447, "dir": "tx", "hex": "830108400164", "len": 6, "note": "?"}
+{"t": 108.6448, "dir": "tx", "hex": "830108400164", "len": 6, "note": "?"}
+{"t": 109.5363, "dir": "tx", "hex": "83010008400164", "len": 7, "note": "presencia: X8Pro via 8 kHz (0x83), bateria 100%"}
+{"t": 110.6446, "dir": "tx", "hex": "830108400164", "len": 6, "note": "?"}
+{"t": 110.6448, "dir": "tx", "hex": "830108400164", "len": 6, "note": "?"}
+{"t": 111.5371, "dir": "tx", "hex": "83010008400164", "len": 7, "note": "presencia: X8Pro via 8 kHz (0x83), bateria 100%"}
+{"t": 112.6442, "dir": "tx", "hex": "830108400164", "len": 6, "note": "?"}
+{"t": 112.6444, "dir": "tx", "hex": "830108400164", "len": 6, "note": "?"}
+{"t": 113.5378, "dir": "tx", "hex": "83010008400164", "len": 7, "note": "presencia: X8Pro via 8 kHz (0x83), bateria 100%"}
+{"t": 114.6444, "dir": "tx", "hex": "830108400164", "len": 6, "note": "?"}
+{"t": 114.6445, "dir": "tx", "hex": "830108400164", "len": 6, "note": "?"}
+{"t": 115.5389, "dir": "tx", "hex": "83010008400164", "len": 7, "note": "presencia: X8Pro via 8 kHz (0x83), bateria 100%"}
+{"t": 116.6523, "dir": "tx", "hex": "830108400164", "len": 6, "note": "?"}
+{"t": 116.6524, "dir": "tx", "hex": "830108400164", "len": 6, "note": "?"}
+{"t": 117.5398, "dir": "tx", "hex": "83010008400164", "len": 7, "note": "presencia: X8Pro via 8 kHz (0x83), bateria 100%"}
+{"t": 118.6437, "dir": "tx", "hex": "830108400164", "len": 6, "note": "?"}
+{"t": 118.644, "dir": "tx", "hex": "830108400164", "len": 6, "note": "?"}
+{"t": 119.5409, "dir": "tx", "hex": "83010008400164", "len": 7, "note": "presencia: X8Pro via 8 kHz (0x83), bateria 100%"}
+{"t": 120.6434, "dir": "tx", "hex": "830108400164", "len": 6, "note": "?"}
+{"t": 120.6435, "dir": "tx", "hex": "830108400164", "len": 6, "note": "?"}
+{"t": 121.5419, "dir": "tx", "hex": "83010008400164", "len": 7, "note": "presencia: X8Pro via 8 kHz (0x83), bateria 100%"}
+{"t": 122.6432, "dir": "tx", "hex": "830108400164", "len": 6, "note": "?"}
+{"t": 122.6433, "dir": "tx", "hex": "830108400164", "len": 6, "note": "?"}
+{"t": 123.5427, "dir": "tx", "hex": "83010008400164", "len": 7, "note": "presencia: X8Pro via 8 kHz (0x83), bateria 100%"}
+{"t": 124.6433, "dir": "tx", "hex": "830108400164", "len": 6, "note": "?"}
+{"t": 124.6435, "dir": "tx", "hex": "830108400164", "len": 6, "note": "?"}
+{"t": 125.5439, "dir": "tx", "hex": "83010008400164", "len": 7, "note": "presencia: X8Pro via 8 kHz (0x83), bateria 100%"}
+{"t": 126.643, "dir": "tx", "hex": "830108400164", "len": 6, "note": "?"}
+{"t": 126.6432, "dir": "tx", "hex": "830108400164", "len": 6, "note": "?"}
+{"t": 127.545, "dir": "tx", "hex": "83010008400164", "len": 7, "note": "presencia: X8Pro via 8 kHz (0x83), bateria 100%"}
+{"t": 128.6509, "dir": "tx", "hex": "830108400164", "len": 6, "note": "?"}
+{"t": 128.651, "dir": "tx", "hex": "830108400164", "len": 6, "note": "?"}
+{"t": 129.5462, "dir": "tx", "hex": "83010008400164", "len": 7, "note": "presencia: X8Pro via 8 kHz (0x83), bateria 100%"}
+{"t": 130.6423, "dir": "tx", "hex": "830108400164", "len": 6, "note": "?"}
+{"t": 130.6425, "dir": "tx", "hex": "830108400164", "len": 6, "note": "?"}
+{"t": 131.5468, "dir": "tx", "hex": "83010008400164", "len": 7, "note": "presencia: X8Pro via 8 kHz (0x83), bateria 100%"}
+{"t": 132.6421, "dir": "tx", "hex": "830108400164", "len": 6, "note": "?"}
+{"t": 132.6423, "dir": "tx", "hex": "830108400164", "len": 6, "note": "?"}
+{"t": 133.5477, "dir": "tx", "hex": "83010008400164", "len": 7, "note": "presencia: X8Pro via 8 kHz (0x83), bateria 100%"}
+{"t": 134.6503, "dir": "tx", "hex": "830108400164", "len": 6, "note": "?"}
+{"t": 134.6504, "dir": "tx", "hex": "830108400164", "len": 6, "note": "?"}
+{"t": 135.5488, "dir": "tx", "hex": "83010008400164", "len": 7, "note": "presencia: X8Pro via 8 kHz (0x83), bateria 100%"}
+{"t": 136.6418, "dir": "tx", "hex": "830108400164", "len": 6, "note": "?"}
+{"t": 136.642, "dir": "tx", "hex": "830108400164", "len": 6, "note": "?"}
+{"t": 137.5492, "dir": "tx", "hex": "83010008400164", "len": 7, "note": "presencia: X8Pro via 8 kHz (0x83), bateria 100%"}
+{"t": 138.6416, "dir": "tx", "hex": "830108400164", "len": 6, "note": "?"}
+{"t": 138.6418, "dir": "tx", "hex": "830108400164", "len": 6, "note": "?"}
+{"t": 139.5502, "dir": "tx", "hex": "83010008400164", "len": 7, "note": "presencia: X8Pro via 8 kHz (0x83), bateria 100%"}
+{"t": 140.6498, "dir": "tx", "hex": "830108400164", "len": 6, "note": "?"}
+{"t": 140.65, "dir": "tx", "hex": "830108400164", "len": 6, "note": "?"}
+{"t": 141.5513, "dir": "tx", "hex": "83010008400164", "len": 7, "note": "presencia: X8Pro via 8 kHz (0x83), bateria 100%"}
+{"t": 142.6478, "dir": "tx", "hex": "830108400164", "len": 6, "note": "?"}
+{"t": 142.648, "dir": "tx", "hex": "830108400164", "len": 6, "note": "?"}
+{"t": 143.5523, "dir": "tx", "hex": "83010008400164", "len": 7, "note": "presencia: X8Pro via 8 kHz (0x83), bateria 100%"}
+{"t": 145.5526, "dir": "tx", "hex": "83010008400164", "len": 7, "note": "presencia: X8Pro via 8 kHz (0x83), bateria 100%"}
+{"t": 146.6361, "dir": "tx", "hex": "830108400164", "len": 6, "note": "?"}
+{"t": 146.6362, "dir": "tx", "hex": "830108400164", "len": 6, "note": "?"}
+{"t": 147.554, "dir": "tx", "hex": "83010008400164", "len": 7, "note": "presencia: X8Pro via 8 kHz (0x83), bateria 100%"}
+{"t": 149.5882, "dir": "tx", "hex": "83010008400164", "len": 7, "note": "presencia: X8Pro via 8 kHz (0x83), bateria 100%"}
+{"t": 150.6465, "dir": "tx", "hex": "830108400164", "len": 6, "note": "?"}
+{"t": 150.6466, "dir": "tx", "hex": "830108400164", "len": 6, "note": "?"}
+{"t": 151.5889, "dir": "tx", "hex": "83010008400164", "len": 7, "note": "presencia: X8Pro via 8 kHz (0x83), bateria 100%"}
+{"t": 153.5892, "dir": "tx", "hex": "83010008400164", "len": 7, "note": "presencia: X8Pro via 8 kHz (0x83), bateria 100%"}
+{"t": 154.6347, "dir": "tx", "hex": "830108400164", "len": 6, "note": "?"}
+{"t": 154.635, "dir": "tx", "hex": "830108400164", "len": 6, "note": "?"}
+{"t": 155.5913, "dir": "tx", "hex": "83010008400164", "len": 7, "note": "presencia: X8Pro via 8 kHz (0x83), bateria 100%"}
+{"t": 157.5917, "dir": "tx", "hex": "83010008400164", "len": 7, "note": "presencia: X8Pro via 8 kHz (0x83), bateria 100%"}
+{"t": 158.6451, "dir": "tx", "hex": "830108400164", "len": 6, "note": "?"}
+{"t": 158.6453, "dir": "tx", "hex": "830108400164", "len": 6, "note": "?"}
+{"t": 159.5937, "dir": "tx", "hex": "83010008400164", "len": 7, "note": "presencia: X8Pro via 8 kHz (0x83), bateria 100%"}
+{"t": 161.5941, "dir": "tx", "hex": "83010008400164", "len": 7, "note": "presencia: X8Pro via 8 kHz (0x83), bateria 100%"}
+{"t": 162.6332, "dir": "tx", "hex": "830108400164", "len": 6, "note": "?"}
+{"t": 162.6333, "dir": "tx", "hex": "830108400164", "len": 6, "note": "?"}
+{"t": 163.5946, "dir": "tx", "hex": "83010008400164", "len": 7, "note": "presencia: X8Pro via 8 kHz (0x83), bateria 100%"}
+{"t": 165.595, "dir": "tx", "hex": "83010008400164", "len": 7, "note": "presencia: X8Pro via 8 kHz (0x83), bateria 100%"}
+{"t": 166.6434, "dir": "tx", "hex": "830108400164", "len": 6, "note": "?"}
+{"t": 166.6435, "dir": "tx", "hex": "830108400164", "len": 6, "note": "?"}
+{"t": 167.5962, "dir": "tx", "hex": "83010008400164", "len": 7, "note": "presencia: X8Pro via 8 kHz (0x83), bateria 100%"}
+{"t": 169.5966, "dir": "tx", "hex": "83010008400164", "len": 7, "note": "presencia: X8Pro via 8 kHz (0x83), bateria 100%"}
+{"t": 170.6317, "dir": "tx", "hex": "830108400164", "len": 6, "note": "?"}
+{"t": 170.6319, "dir": "tx", "hex": "830108400164", "len": 6, "note": "?"}
+{"t": 171.5972, "dir": "tx", "hex": "83010008400164", "len": 7, "note": "presencia: X8Pro via 8 kHz (0x83), bateria 100%"}
+{"t": 173.5976, "dir": "tx", "hex": "83010008400164", "len": 7, "note": "presencia: X8Pro via 8 kHz (0x83), bateria 100%"}
+{"t": 174.6419, "dir": "tx", "hex": "830108400164", "len": 6, "note": "?"}
+{"t": 174.642, "dir": "tx", "hex": "830108400164", "len": 6, "note": "?"}
+{"t": 175.5993, "dir": "tx", "hex": "83010008400164", "len": 7, "note": "presencia: X8Pro via 8 kHz (0x83), bateria 100%"}
+{"t": 177.5996, "dir": "tx", "hex": "83010008400164", "len": 7, "note": "presencia: X8Pro via 8 kHz (0x83), bateria 100%"}
+{"t": 178.6301, "dir": "tx", "hex": "830108400164", "len": 6, "note": "?"}
+{"t": 178.6303, "dir": "tx", "hex": "830108400164", "len": 6, "note": "?"}
+{"t": 179.6006, "dir": "tx", "hex": "83010008400164", "len": 7, "note": "presencia: X8Pro via 8 kHz (0x83), bateria 100%"}
+{"t": 181.601, "dir": "tx", "hex": "83010008400164", "len": 7, "note": "presencia: X8Pro via 8 kHz (0x83), bateria 100%"}
+{"t": 182.6402, "dir": "tx", "hex": "830108400164", "len": 6, "note": "?"}
+{"t": 182.6403, "dir": "tx", "hex": "830108400164", "len": 6, "note": "?"}
+{"t": 183.6017, "dir": "tx", "hex": "83010008400164", "len": 7, "note": "presencia: X8Pro via 8 kHz (0x83), bateria 100%"}
+{"t": 185.6021, "dir": "tx", "hex": "83010008400164", "len": 7, "note": "presencia: X8Pro via 8 kHz (0x83), bateria 100%"}
+{"t": 186.6286, "dir": "tx", "hex": "830108400164", "len": 6, "note": "?"}
+{"t": 186.6287, "dir": "tx", "hex": "830108400164", "len": 6, "note": "?"}
+{"t": 187.6024, "dir": "tx", "hex": "83010008400164", "len": 7, "note": "presencia: X8Pro via 8 kHz (0x83), bateria 100%"}
+{"t": 189.6029, "dir": "tx", "hex": "83010008400164", "len": 7, "note": "presencia: X8Pro via 8 kHz (0x83), bateria 100%"}
+{"t": 190.639, "dir": "tx", "hex": "830108400164", "len": 6, "note": "?"}
+{"t": 190.6391, "dir": "tx", "hex": "830108400164", "len": 6, "note": "?"}
+{"t": 191.6033, "dir": "tx", "hex": "83010008400164", "len": 7, "note": "presencia: X8Pro via 8 kHz (0x83), bateria 100%"}
+{"t": 193.6039, "dir": "tx", "hex": "83010008400164", "len": 7, "note": "presencia: X8Pro via 8 kHz (0x83), bateria 100%"}
+{"t": 194.6267, "dir": "tx", "hex": "830108400164", "len": 6, "note": "?"}
+{"t": 194.6269, "dir": "tx", "hex": "830108400164", "len": 6, "note": "?"}
+{"t": 195.6051, "dir": "tx", "hex": "83010008400164", "len": 7, "note": "presencia: X8Pro via 8 kHz (0x83), bateria 100%"}
+{"t": 197.6055, "dir": "tx", "hex": "83010008400164", "len": 7, "note": "presencia: X8Pro via 8 kHz (0x83), bateria 100%"}
+{"t": 198.6273, "dir": "tx", "hex": "830108400164", "len": 6, "note": "?"}
+{"t": 198.6274, "dir": "tx", "hex": "830108400164", "len": 6, "note": "?"}
+{"t": 199.6069, "dir": "tx", "hex": "83010008400164", "len": 7, "note": "presencia: X8Pro via 8 kHz (0x83), bateria 100%"}
+{"t": 200.6271, "dir": "tx", "hex": "830108400164", "len": 6, "note": "?"}
+{"t": 200.6273, "dir": "tx", "hex": "830108400164", "len": 6, "note": "?"}
+{"t": 201.6077, "dir": "tx", "hex": "83010008400164", "len": 7, "note": "presencia: X8Pro via 8 kHz (0x83), bateria 100%"}
+{"t": 202.6269, "dir": "tx", "hex": "830108400164", "len": 6, "note": "?"}
+{"t": 202.627, "dir": "tx", "hex": "830108400164", "len": 6, "note": "?"}
+{"t": 203.6083, "dir": "tx", "hex": "83010008400164", "len": 7, "note": "presencia: X8Pro via 8 kHz (0x83), bateria 100%"}
+{"t": 204.6267, "dir": "tx", "hex": "830108400164", "len": 6, "note": "?"}
+{"t": 204.6268, "dir": "tx", "hex": "830108400164", "len": 6, "note": "?"}
+{"t": 205.6092, "dir": "tx", "hex": "83010008400164", "len": 7, "note": "presencia: X8Pro via 8 kHz (0x83), bateria 100%"}
+{"t": 206.6037, "dir": "tx", "hex": "830108100200", "len": 6, "note": "?"}
+{"t": 206.6038, "dir": "tx", "hex": "830108100200", "len": 6, "note": "?"}
+{"t": 206.6444, "dir": "tx", "hex": "830108400164", "len": 6, "note": "?"}
+{"t": 206.6446, "dir": "tx", "hex": "830108400164", "len": 6, "note": "?"}
+{"t": 206.9091, "dir": "tx", "hex": "830108100300", "len": 6, "note": "?"}
+{"t": 206.9092, "dir": "tx", "hex": "830108100300", "len": 6, "note": "?"}
+{"t": 207.1494, "dir": "tx", "hex": "830108100400", "len": 6, "note": "?"}
+{"t": 207.1496, "dir": "tx", "hex": "830108100400", "len": 6, "note": "?"}
+{"t": 207.3864, "dir": "tx", "hex": "830108100500", "len": 6, "note": "?"}
+{"t": 207.3867, "dir": "tx", "hex": "830108100500", "len": 6, "note": "?"}
+{"t": 207.6105, "dir": "tx", "hex": "83010008400164", "len": 7, "note": "presencia: X8Pro via 8 kHz (0x83), bateria 100%"}
+{"t": 207.6797, "dir": "tx", "hex": "830108100600", "len": 6, "note": "?"}
+{"t": 207.6798, "dir": "tx", "hex": "830108100600", "len": 6, "note": "?"}
+{"t": 208.0212, "dir": "tx", "hex": "830108100100", "len": 6, "note": "?"}
+{"t": 208.0214, "dir": "tx", "hex": "830108100100", "len": 6, "note": "?"}
+{"t": 208.624, "dir": "tx", "hex": "830108400164", "len": 6, "note": "?"}
+{"t": 208.6241, "dir": "tx", "hex": "830108400164", "len": 6, "note": "?"}
+{"t": 209.6114, "dir": "tx", "hex": "83010008400164", "len": 7, "note": "presencia: X8Pro via 8 kHz (0x83), bateria 100%"}
+{"t": 209.872, "dir": "rx", "hex": "830804380100013f00001327355e87e70000000000000001000002ff000000ff000000ffffff0000ffffff00ffff4000ffffff020fb30000000000000000", "len": 62, "note": "ESCRIBIR cmd 56 (sub=1) | X8Pro via 8 kHz (0x83) payload=60B"}
+{"t": 209.8723, "dir": "tx", "hex": "8308500100", "len": 5, "note": "ack error (la pagina reintenta)"}
+{"t": 210.6241, "dir": "tx", "hex": "830108400164", "len": 6, "note": "?"}
+{"t": 210.6244, "dir": "tx", "hex": "830108400164", "len": 6, "note": "?"}
+{"t": 210.9642, "dir": "rx", "hex": "830804380100013f00001327355e87e70000000000000001000001ff000000ff000000ffffff0000ffffff00ffff4000ffffff020fb20000000000000000", "len": 62, "note": "ESCRIBIR cmd 56 (sub=1) | X8Pro via 8 kHz (0x83) payload=60B"}
+{"t": 210.9645, "dir": "tx", "hex": "8308500100", "len": 5, "note": "ack error (la pagina reintenta)"}
+{"t": 211.6118, "dir": "tx", "hex": "83010008400164", "len": 7, "note": "presencia: X8Pro via 8 kHz (0x83), bateria 100%"}
+{"t": 212.6235, "dir": "tx", "hex": "830108400164", "len": 6, "note": "?"}
+{"t": 212.6237, "dir": "tx", "hex": "830108400164", "len": 6, "note": "?"}
+{"t": 213.6131, "dir": "tx", "hex": "83010008400164", "len": 7, "note": "presencia: X8Pro via 8 kHz (0x83), bateria 100%"}
+{"t": 214.6231, "dir": "tx", "hex": "830108400164", "len": 6, "note": "?"}
+{"t": 214.6233, "dir": "tx", "hex": "830108400164", "len": 6, "note": "?"}
+{"t": 215.6136, "dir": "tx", "hex": "83010008400164", "len": 7, "note": "presencia: X8Pro via 8 kHz (0x83), bateria 100%"}
+{"t": 216.6232, "dir": "tx", "hex": "830108400164", "len": 6, "note": "?"}
+{"t": 216.6235, "dir": "tx", "hex": "830108400164", "len": 6, "note": "?"}
+{"t": 217.6148, "dir": "tx", "hex": "83010008400164", "len": 7, "note": "presencia: X8Pro via 8 kHz (0x83), bateria 100%"}
+{"t": 218.6228, "dir": "tx", "hex": "830108400164", "len": 6, "note": "?"}
+{"t": 218.6229, "dir": "tx", "hex": "830108400164", "len": 6, "note": "?"}
+{"t": 219.6154, "dir": "tx", "hex": "83010008400164", "len": 7, "note": "presencia: X8Pro via 8 kHz (0x83), bateria 100%"}
+{"t": 220.6225, "dir": "tx", "hex": "830108400164", "len": 6, "note": "?"}
+{"t": 220.6226, "dir": "tx", "hex": "830108400164", "len": 6, "note": "?"}
+{"t": 221.616, "dir": "tx", "hex": "83010008400164", "len": 7, "note": "presencia: X8Pro via 8 kHz (0x83), bateria 100%"}
+{"t": 222.6223, "dir": "tx", "hex": "830108400164", "len": 6, "note": "?"}
+{"t": 222.6224, "dir": "tx", "hex": "830108400164", "len": 6, "note": "?"}
+{"t": 223.6167, "dir": "tx", "hex": "83010008400164", "len": 7, "note": "presencia: X8Pro via 8 kHz (0x83), bateria 100%"}
+{"t": 224.6223, "dir": "tx", "hex": "830108400164", "len": 6, "note": "?"}
+{"t": 224.6224, "dir": "tx", "hex": "830108400164", "len": 6, "note": "?"}
+{"t": 225.6177, "dir": "tx", "hex": "83010008400164", "len": 7, "note": "presencia: X8Pro via 8 kHz (0x83), bateria 100%"}
+{"t": 226.6221, "dir": "tx", "hex": "830108400164", "len": 6, "note": "?"}
+{"t": 226.6222, "dir": "tx", "hex": "830108400164", "len": 6, "note": "?"}
+{"t": 227.6188, "dir": "tx", "hex": "83010008400164", "len": 7, "note": "presencia: X8Pro via 8 kHz (0x83), bateria 100%"}
+{"t": 228.6217, "dir": "tx", "hex": "830108400164", "len": 6, "note": "?"}
+{"t": 228.6219, "dir": "tx", "hex": "830108400164", "len": 6, "note": "?"}
+{"t": 229.6192, "dir": "tx", "hex": "83010008400164", "len": 7, "note": "presencia: X8Pro via 8 kHz (0x83), bateria 100%"}
+{"t": 230.6216, "dir": "tx", "hex": "830108400164", "len": 6, "note": "?"}
+{"t": 230.6217, "dir": "tx", "hex": "830108400164", "len": 6, "note": "?"}
+{"t": 231.62, "dir": "tx", "hex": "83010008400164", "len": 7, "note": "presencia: X8Pro via 8 kHz (0x83), bateria 100%"}
+{"t": 232.6213, "dir": "tx", "hex": "830108400164", "len": 6, "note": "?"}
+{"t": 232.6214, "dir": "tx", "hex": "830108400164", "len": 6, "note": "?"}
+{"t": 233.6208, "dir": "tx", "hex": "83010008400164", "len": 7, "note": "presencia: X8Pro via 8 kHz (0x83), bateria 100%"}
+{"t": 234.6209, "dir": "tx", "hex": "830108400164", "len": 6, "note": "?"}
+{"t": 234.6211, "dir": "tx", "hex": "830108400164", "len": 6, "note": "?"}
+{"t": 235.6214, "dir": "tx", "hex": "83010008400164", "len": 7, "note": "presencia: X8Pro via 8 kHz (0x83), bateria 100%"}
+{"t": 236.6209, "dir": "tx", "hex": "830108400164", "len": 6, "note": "?"}
+{"t": 236.621, "dir": "tx", "hex": "830108400164", "len": 6, "note": "?"}
+{"t": 237.6233, "dir": "tx", "hex": "83010008400164", "len": 7, "note": "presencia: X8Pro via 8 kHz (0x83), bateria 100%"}
+{"t": 238.6206, "dir": "tx", "hex": "830108400164", "len": 6, "note": "?"}
+{"t": 238.6208, "dir": "tx", "hex": "830108400164", "len": 6, "note": "?"}
+{"t": 239.6252, "dir": "tx", "hex": "83010008400164", "len": 7, "note": "presencia: X8Pro via 8 kHz (0x83), bateria 100%"}
+{"t": 240.6204, "dir": "tx", "hex": "830108400164", "len": 6, "note": "?"}
+{"t": 240.6206, "dir": "tx", "hex": "830108400164", "len": 6, "note": "?"}
+{"t": 241.627, "dir": "tx", "hex": "83010008400164", "len": 7, "note": "presencia: X8Pro via 8 kHz (0x83), bateria 100%"}
+{"t": 242.6202, "dir": "tx", "hex": "830108400164", "len": 6, "note": "?"}
+{"t": 242.6203, "dir": "tx", "hex": "830108400164", "len": 6, "note": "?"}
+{"t": 243.6287, "dir": "tx", "hex": "83010008400164", "len": 7, "note": "presencia: X8Pro via 8 kHz (0x83), bateria 100%"}
+{"t": 244.6203, "dir": "tx", "hex": "830108400164", "len": 6, "note": "?"}
+{"t": 244.6205, "dir": "tx", "hex": "830108400164", "len": 6, "note": "?"}
+{"t": 245.6309, "dir": "tx", "hex": "83010008400164", "len": 7, "note": "presencia: X8Pro via 8 kHz (0x83), bateria 100%"}
+{"t": 246.6201, "dir": "tx", "hex": "830108400164", "len": 6, "note": "?"}
+{"t": 246.6203, "dir": "tx", "hex": "830108400164", "len": 6, "note": "?"}
+{"t": 247.632, "dir": "tx", "hex": "83010008400164", "len": 7, "note": "presencia: X8Pro via 8 kHz (0x83), bateria 100%"}
+{"t": 248.6196, "dir": "tx", "hex": "830108400164", "len": 6, "note": "?"}
+{"t": 248.6197, "dir": "tx", "hex": "830108400164", "len": 6, "note": "?"}
+{"t": 249.6341, "dir": "tx", "hex": "83010008400164", "len": 7, "note": "presencia: X8Pro via 8 kHz (0x83), bateria 100%"}
+{"t": 250.6193, "dir": "tx", "hex": "830108400164", "len": 6, "note": "?"}
+{"t": 250.6194, "dir": "tx", "hex": "830108400164", "len": 6, "note": "?"}
+{"t": 251.6358, "dir": "tx", "hex": "83010008400164", "len": 7, "note": "presencia: X8Pro via 8 kHz (0x83), bateria 100%"}
+{"t": 252.6196, "dir": "tx", "hex": "830108400164", "len": 6, "note": "?"}
+{"t": 252.62, "dir": "tx", "hex": "830108400164", "len": 6, "note": "?"}
+{"t": 253.6367, "dir": "tx", "hex": "83010008400164", "len": 7, "note": "presencia: X8Pro via 8 kHz (0x83), bateria 100%"}
+{"t": 254.6191, "dir": "tx", "hex": "830108400164", "len": 6, "note": "?"}
+{"t": 254.6192, "dir": "tx", "hex": "830108400164", "len": 6, "note": "?"}
+{"t": 255.6378, "dir": "tx", "hex": "83010008400164", "len": 7, "note": "presencia: X8Pro via 8 kHz (0x83), bateria 100%"}
+{"t": 256.6188, "dir": "tx", "hex": "830108400164", "len": 6, "note": "?"}
+{"t": 256.619, "dir": "tx", "hex": "830108400164", "len": 6, "note": "?"}
+{"t": 257.6393, "dir": "tx", "hex": "83010008400164", "len": 7, "note": "presencia: X8Pro via 8 kHz (0x83), bateria 100%"}
+{"t": 258.6186, "dir": "tx", "hex": "830108400164", "len": 6, "note": "?"}
+{"t": 258.6188, "dir": "tx", "hex": "830108400164", "len": 6, "note": "?"}
+{"t": 259.6411, "dir": "tx", "hex": "83010008400164", "len": 7, "note": "presencia: X8Pro via 8 kHz (0x83), bateria 100%"}
+{"t": 260.6183, "dir": "tx", "hex": "830108400164", "len": 6, "note": "?"}
+{"t": 260.6184, "dir": "tx", "hex": "830108400164", "len": 6, "note": "?"}
+{"t": 261.6428, "dir": "tx", "hex": "83010008400164", "len": 7, "note": "presencia: X8Pro via 8 kHz (0x83), bateria 100%"}
+{"t": 262.6181, "dir": "tx", "hex": "830108400164", "len": 6, "note": "?"}
+{"t": 262.6183, "dir": "tx", "hex": "830108400164", "len": 6, "note": "?"}
+{"t": 263.6437, "dir": "tx", "hex": "83010008400164", "len": 7, "note": "presencia: X8Pro via 8 kHz (0x83), bateria 100%"}
+{"t": 264.6178, "dir": "tx", "hex": "830108400164", "len": 6, "note": "?"}
+{"t": 264.618, "dir": "tx", "hex": "830108400164", "len": 6, "note": "?"}
+{"t": 265.6444, "dir": "tx", "hex": "83010008400164", "len": 7, "note": "presencia: X8Pro via 8 kHz (0x83), bateria 100%"}
+{"t": 266.6177, "dir": "tx", "hex": "830108400164", "len": 6, "note": "?"}
+{"t": 266.6179, "dir": "tx", "hex": "830108400164", "len": 6, "note": "?"}
+{"t": 267.6458, "dir": "tx", "hex": "83010008400164", "len": 7, "note": "presencia: X8Pro via 8 kHz (0x83), bateria 100%"}
+{"t": 268.6176, "dir": "tx", "hex": "830108400164", "len": 6, "note": "?"}
+{"t": 268.6178, "dir": "tx", "hex": "830108400164", "len": 6, "note": "?"}
+{"t": 269.6472, "dir": "tx", "hex": "83010008400164", "len": 7, "note": "presencia: X8Pro via 8 kHz (0x83), bateria 100%"}
+{"t": 270.6172, "dir": "tx", "hex": "830108400164", "len": 6, "note": "?"}
+{"t": 270.6173, "dir": "tx", "hex": "830108400164", "len": 6, "note": "?"}
+{"t": 271.6477, "dir": "tx", "hex": "83010008400164", "len": 7, "note": "presencia: X8Pro via 8 kHz (0x83), bateria 100%"}
+{"t": 272.617, "dir": "tx", "hex": "830108400164", "len": 6, "note": "?"}
+{"t": 272.6172, "dir": "tx", "hex": "830108400164", "len": 6, "note": "?"}
+{"t": 273.6484, "dir": "tx", "hex": "83010008400164", "len": 7, "note": "presencia: X8Pro via 8 kHz (0x83), bateria 100%"}
+{"t": 274.6169, "dir": "tx", "hex": "830108400164", "len": 6, "note": "?"}
+{"t": 274.6171, "dir": "tx", "hex": "830108400164", "len": 6, "note": "?"}
+{"t": 275.6494, "dir": "tx", "hex": "83010008400164", "len": 7, "note": "presencia: X8Pro via 8 kHz (0x83), bateria 100%"}
+{"t": 276.6167, "dir": "tx", "hex": "830108400164", "len": 6, "note": "?"}
+{"t": 276.6168, "dir": "tx", "hex": "830108400164", "len": 6, "note": "?"}
+{"t": 277.6501, "dir": "tx", "hex": "83010008400164", "len": 7, "note": "presencia: X8Pro via 8 kHz (0x83), bateria 100%"}
+{"t": 278.6164, "dir": "tx", "hex": "830108400164", "len": 6, "note": "?"}
+{"t": 278.6168, "dir": "tx", "hex": "830108400164", "len": 6, "note": "?"}
+{"t": 279.6511, "dir": "tx", "hex": "83010008400164", "len": 7, "note": "presencia: X8Pro via 8 kHz (0x83), bateria 100%"}
+{"t": 280.6162, "dir": "tx", "hex": "830108400164", "len": 6, "note": "?"}
+{"t": 280.6163, "dir": "tx", "hex": "830108400164", "len": 6, "note": "?"}
+{"t": 281.6516, "dir": "tx", "hex": "83010008400164", "len": 7, "note": "presencia: X8Pro via 8 kHz (0x83), bateria 100%"}
+{"t": 282.6159, "dir": "tx", "hex": "830108400164", "len": 6, "note": "?"}
+{"t": 282.6161, "dir": "tx", "hex": "830108400164", "len": 6, "note": "?"}
+{"t": 283.6525, "dir": "tx", "hex": "83010008400164", "len": 7, "note": "presencia: X8Pro via 8 kHz (0x83), bateria 100%"}
+{"t": 284.616, "dir": "tx", "hex": "830108400164", "len": 6, "note": "?"}
+{"t": 284.6162, "dir": "tx", "hex": "830108400164", "len": 6, "note": "?"}
+{"t": 285.6537, "dir": "tx", "hex": "83010008400164", "len": 7, "note": "presencia: X8Pro via 8 kHz (0x83), bateria 100%"}
+{"t": 286.6156, "dir": "tx", "hex": "830108400164", "len": 6, "note": "?"}
+{"t": 286.6158, "dir": "tx", "hex": "830108400164", "len": 6, "note": "?"}
+{"t": 287.6547, "dir": "tx", "hex": "83010008400164", "len": 7, "note": "presencia: X8Pro via 8 kHz (0x83), bateria 100%"}
+{"t": 288.6154, "dir": "tx", "hex": "830108400164", "len": 6, "note": "?"}
+{"t": 288.6155, "dir": "tx", "hex": "830108400164", "len": 6, "note": "?"}
+{"t": 289.656, "dir": "tx", "hex": "83010008400164", "len": 7, "note": "presencia: X8Pro via 8 kHz (0x83), bateria 100%"}
+{"t": 290.6151, "dir": "tx", "hex": "830108400164", "len": 6, "note": "?"}
+{"t": 290.6152, "dir": "tx", "hex": "830108400164", "len": 6, "note": "?"}
+{"t": 291.6565, "dir": "tx", "hex": "83010008400164", "len": 7, "note": "presencia: X8Pro via 8 kHz (0x83), bateria 100%"}
+{"t": 292.6148, "dir": "tx", "hex": "830108400164", "len": 6, "note": "?"}
+{"t": 292.615, "dir": "tx", "hex": "830108400164", "len": 6, "note": "?"}
+{"t": 293.6573, "dir": "tx", "hex": "83010008400164", "len": 7, "note": "presencia: X8Pro via 8 kHz (0x83), bateria 100%"}
+{"t": 294.6145, "dir": "tx", "hex": "830108400164", "len": 6, "note": "?"}
+{"t": 294.6147, "dir": "tx", "hex": "830108400164", "len": 6, "note": "?"}
+{"t": 295.658, "dir": "tx", "hex": "83010008400164", "len": 7, "note": "presencia: X8Pro via 8 kHz (0x83), bateria 100%"}
+{"t": 296.6146, "dir": "tx", "hex": "830108400164", "len": 6, "note": "?"}
+{"t": 296.6147, "dir": "tx", "hex": "830108400164", "len": 6, "note": "?"}
+{"t": 297.6591, "dir": "tx", "hex": "83010008400164", "len": 7, "note": "presencia: X8Pro via 8 kHz (0x83), bateria 100%"}
+{"t": 298.6144, "dir": "tx", "hex": "830108400164", "len": 6, "note": "?"}
+{"t": 298.6146, "dir": "tx", "hex": "830108400164", "len": 6, "note": "?"}
+{"t": 299.66, "dir": "tx", "hex": "83010008400164", "len": 7, "note": "presencia: X8Pro via 8 kHz (0x83), bateria 100%"}
+{"t": 300.614, "dir": "tx", "hex": "830108400164", "len": 6, "note": "?"}
+{"t": 300.6141, "dir": "tx", "hex": "830108400164", "len": 6, "note": "?"}
+{"t": 301.6606, "dir": "tx", "hex": "83010008400164", "len": 7, "note": "presencia: X8Pro via 8 kHz (0x83), bateria 100%"}
+{"t": 302.6138, "dir": "tx", "hex": "830108400164", "len": 6, "note": "?"}
+{"t": 302.6141, "dir": "tx", "hex": "830108400164", "len": 6, "note": "?"}
+{"t": 303.6614, "dir": "tx", "hex": "83010008400164", "len": 7, "note": "presencia: X8Pro via 8 kHz (0x83), bateria 100%"}
+{"t": 304.6136, "dir": "tx", "hex": "830108400164", "len": 6, "note": "?"}
+{"t": 304.6137, "dir": "tx", "hex": "830108400164", "len": 6, "note": "?"}
+{"t": 305.6621, "dir": "tx", "hex": "83010008400164", "len": 7, "note": "presencia: X8Pro via 8 kHz (0x83), bateria 100%"}
+{"t": 306.6135, "dir": "tx", "hex": "830108400164", "len": 6, "note": "?"}
+{"t": 306.6137, "dir": "tx", "hex": "830108400164", "len": 6, "note": "?"}
+{"t": 307.6626, "dir": "tx", "hex": "83010008400164", "len": 7, "note": "presencia: X8Pro via 8 kHz (0x83), bateria 100%"}
+{"t": 308.6133, "dir": "tx", "hex": "830108400164", "len": 6, "note": "?"}
+{"t": 308.6135, "dir": "tx", "hex": "830108400164", "len": 6, "note": "?"}
+{"t": 309.664, "dir": "tx", "hex": "83010008400164", "len": 7, "note": "presencia: X8Pro via 8 kHz (0x83), bateria 100%"}
+{"t": 310.6131, "dir": "tx", "hex": "830108400164", "len": 6, "note": "?"}
+{"t": 310.6133, "dir": "tx", "hex": "830108400164", "len": 6, "note": "?"}
+{"t": 311.6647, "dir": "tx", "hex": "83010008400164", "len": 7, "note": "presencia: X8Pro via 8 kHz (0x83), bateria 100%"}
+{"t": 312.6129, "dir": "tx", "hex": "830108400164", "len": 6, "note": "?"}
+{"t": 312.613, "dir": "tx", "hex": "830108400164", "len": 6, "note": "?"}
+{"t": 313.6653, "dir": "tx", "hex": "83010008400164", "len": 7, "note": "presencia: X8Pro via 8 kHz (0x83), bateria 100%"}
+{"t": 314.6129, "dir": "tx", "hex": "830108400164", "len": 6, "note": "?"}
+{"t": 314.6132, "dir": "tx", "hex": "830108400164", "len": 6, "note": "?"}
+{"t": 315.6665, "dir": "tx", "hex": "83010008400164", "len": 7, "note": "presencia: X8Pro via 8 kHz (0x83), bateria 100%"}
+{"t": 316.6125, "dir": "tx", "hex": "830108400164", "len": 6, "note": "?"}
+{"t": 316.6126, "dir": "tx", "hex": "830108400164", "len": 6, "note": "?"}

@@ -1,0 +1,30 @@
+# Attack Shark X8 Pro - acceso de usuario al canal de configuracion HID.
+#
+# Solo la interfaz 2, que es la que tiene la coleccion vendor 0xFF01 con el
+# Report ID 4. Las interfaces de teclado, mouse y multimedia quedan
+# root:root 0600 como estaban.
+#
+#   1d57:fa65  dongle "2.4G 8K HS Receiver"
+#   1d57:2126  mouse por cable "X8PRO Mouse"
+#
+# Se matchea por ENV{} y no por ATTRS{}. Las tres propiedades las deja el
+# builtin usb_id, que corre en 60-persistent-hidraw.rules, o sea antes que
+# este archivo, y quedan sobre el propio dispositivo hidraw. Asi se esquivan
+# dos trampas que hacen fallar la version "obvia" de esta regla:
+#
+#   * En una misma regla, todos los ATTRS{} tienen que matchear en el MISMO
+#     dispositivo padre. bInterfaceNumber vive en la interfaz USB (1-2:1.2) y
+#     idVendor/idProduct viven en el dispositivo USB (1-2), asi que no se
+#     pueden combinar en una sola regla.
+#   * Reemplazar la interfaz por KERNELS=="*:1.2" tampoco funciona: se lee
+#     bien pero no matchea.
+#
+# El archivo tiene que ordenar ANTES de 73-seat-late.rules, que es quien
+# convierte TAG+="uaccess" en una ACL. Con un 99- el tag llega tarde y no
+# pasa nada. De ahi el 70-.
+#
+# Para verificar:
+#   udevadm info -q property -p /sys/class/hidraw/hidrawN | grep ID_USB
+
+SUBSYSTEM=="hidraw", ENV{ID_VENDOR_ID}=="1d57", ENV{ID_MODEL_ID}=="fa65", ENV{ID_USB_INTERFACE_NUM}=="02", TAG+="uaccess", GROUP="input", MODE="0660"
+SUBSYSTEM=="hidraw", ENV{ID_VENDOR_ID}=="1d57", ENV{ID_MODEL_ID}=="2126", ENV{ID_USB_INTERFACE_NUM}=="02", TAG+="uaccess", GROUP="input", MODE="0660"
